@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07428D241CC213E90013210E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07428D231CC213E90013210E /* RxCocoa.framework */; };
 		07428D261CC213EE0013210E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07428D251CC213EE0013210E /* RxSwift.framework */; };
 		07428D291CC214000013210E /* SKNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07428D281CC214000013210E /* SKNode+Rx.swift */; };
 		07A9116D1CC2054C00FAA96A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07A9116B1CC2054C00FAA96A /* Info.plist */; };
@@ -15,6 +14,8 @@
 		07A9117C1CC205EF00FAA96A /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A9115F1CC2003D00FAA96A /* RxSpriteKit.framework */; };
 		07A911851CC2060D00FAA96A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07A911831CC2060D00FAA96A /* Info.plist */; };
 		07A911861CC2060D00FAA96A /* RxSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A911841CC2060D00FAA96A /* RxSpriteKitTests.swift */; };
+		07AF0D201CC222EE00CCEAC2 /* ControlProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF0D1F1CC222EE00CCEAC2 /* ControlProperty.swift */; };
+		07AF0D221CC2230500CCEAC2 /* NodeBindingObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF0D211CC2230500CCEAC2 /* NodeBindingObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07428D231CC213E90013210E /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "../../Library/Developer/Xcode/DerivedData/RxSpriteKit-agshyuwuisgufkcvvzuidijnaxqj/Build/Products/Debug-iphonesimulator/RxCocoa.framework"; sourceTree = "<group>"; };
 		07428D251CC213EE0013210E /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/RxSpriteKit-agshyuwuisgufkcvvzuidijnaxqj/Build/Products/Debug-iphonesimulator/RxSwift.framework"; sourceTree = "<group>"; };
 		07428D281CC214000013210E /* SKNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Rx.swift"; sourceTree = "<group>"; };
 		074A520A1CC21951003A165A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -50,6 +50,8 @@
 		07A911771CC205EF00FAA96A /* RxSpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSpriteKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A911831CC2060D00FAA96A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07A911841CC2060D00FAA96A /* RxSpriteKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSpriteKitTests.swift; sourceTree = "<group>"; };
+		07AF0D1F1CC222EE00CCEAC2 /* ControlProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlProperty.swift; sourceTree = "<group>"; };
+		07AF0D211CC2230500CCEAC2 /* NodeBindingObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeBindingObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				07428D261CC213EE0013210E /* RxSwift.framework in Frameworks */,
-				07428D241CC213E90013210E /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +87,6 @@
 			children = (
 				074A520A1CC21951003A165A /* CoreLocation.framework */,
 				07428D251CC213EE0013210E /* RxSwift.framework */,
-				07428D231CC213E90013210E /* RxCocoa.framework */,
 				07A9116A1CC2054C00FAA96A /* RxSpriteKit */,
 				07A911821CC2060D00FAA96A /* Tests */,
 				07A911601CC2003D00FAA96A /* Products */,
@@ -105,6 +105,7 @@
 		07A9116A1CC2054C00FAA96A /* RxSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				07AF0D1E1CC222EE00CCEAC2 /* Core */,
 				07428D271CC214000013210E /* Extensions */,
 				07A9116B1CC2054C00FAA96A /* Info.plist */,
 				07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */,
@@ -120,6 +121,15 @@
 				07A911841CC2060D00FAA96A /* RxSpriteKitTests.swift */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		07AF0D1E1CC222EE00CCEAC2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				07AF0D1F1CC222EE00CCEAC2 /* ControlProperty.swift */,
+				07AF0D211CC2230500CCEAC2 /* NodeBindingObserver.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +243,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07AF0D201CC222EE00CCEAC2 /* ControlProperty.swift in Sources */,
+				07AF0D221CC2230500CCEAC2 /* NodeBindingObserver.swift in Sources */,
 				07428D291CC214000013210E /* SKNode+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
