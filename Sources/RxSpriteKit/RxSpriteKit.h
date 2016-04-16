@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 //! Project version number for RxSpriteKit.
 FOUNDATION_EXPORT double RxSpriteKitVersionNumber;
