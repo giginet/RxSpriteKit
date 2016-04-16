@@ -43,7 +43,6 @@
 /* Begin PBXFileReference section */
 		07428D251CC213EE0013210E /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/RxSpriteKit-agshyuwuisgufkcvvzuidijnaxqj/Build/Products/Debug-iphonesimulator/RxSwift.framework"; sourceTree = "<group>"; };
 		07428D281CC214000013210E /* SKNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Rx.swift"; sourceTree = "<group>"; };
-		074A520A1CC21951003A165A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		07A9115F1CC2003D00FAA96A /* RxSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A9116B1CC2054C00FAA96A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxSpriteKit.h; sourceTree = "<group>"; };
@@ -85,7 +84,6 @@
 		07A911551CC2003D00FAA96A = {
 			isa = PBXGroup;
 			children = (
-				074A520A1CC21951003A165A /* CoreLocation.framework */,
 				07428D251CC213EE0013210E /* RxSwift.framework */,
 				07A9116A1CC2054C00FAA96A /* RxSpriteKit */,
 				07A911821CC2060D00FAA96A /* Tests */,
