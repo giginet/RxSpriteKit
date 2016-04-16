@@ -12,8 +12,8 @@
 		07A9117C1CC205EF00FAA96A /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A9115F1CC2003D00FAA96A /* RxSpriteKit.framework */; };
 		07A911851CC2060D00FAA96A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07A911831CC2060D00FAA96A /* Info.plist */; };
 		07A911861CC2060D00FAA96A /* RxSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A911841CC2060D00FAA96A /* RxSpriteKitTests.swift */; };
-		07A9118B1CC2070E00FAA96A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A911871CC206C600FAA96A /* RxCocoa.framework */; };
-		07A9118C1CC2070E00FAA96A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A911881CC206C600FAA96A /* RxSwift.framework */; };
+		07A911911CC20F1500FAA96A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A911901CC20F1500FAA96A /* RxCocoa.framework */; };
+		07A911931CC20F1900FAA96A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A911921CC20F1900FAA96A /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,8 @@
 		07A911841CC2060D00FAA96A /* RxSpriteKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSpriteKitTests.swift; sourceTree = "<group>"; };
 		07A911871CC206C600FAA96A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		07A911881CC206C600FAA96A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		07A911901CC20F1500FAA96A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "../../Library/Developer/Xcode/DerivedData/RxSpriteKit-agshyuwuisgufkcvvzuidijnaxqj/Build/Products/Debug-iphonesimulator/RxCocoa.framework"; sourceTree = "<group>"; };
+		07A911921CC20F1900FAA96A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/RxSpriteKit-agshyuwuisgufkcvvzuidijnaxqj/Build/Products/Debug-iphonesimulator/RxSwift.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07A9118B1CC2070E00FAA96A /* RxCocoa.framework in Frameworks */,
-				07A9118C1CC2070E00FAA96A /* RxSwift.framework in Frameworks */,
+				07A911931CC20F1900FAA96A /* RxSwift.framework in Frameworks */,
+				07A911911CC20F1500FAA96A /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +63,8 @@
 		07A911551CC2003D00FAA96A = {
 			isa = PBXGroup;
 			children = (
+				07A911921CC20F1900FAA96A /* RxSwift.framework */,
+				07A911901CC20F1500FAA96A /* RxCocoa.framework */,
 				07A911871CC206C600FAA96A /* RxCocoa.framework */,
 				07A911881CC206C600FAA96A /* RxSwift.framework */,
 				07A9116A1CC2054C00FAA96A /* RxSpriteKit */,
@@ -119,7 +123,6 @@
 				07A9115B1CC2003D00FAA96A /* Frameworks */,
 				07A9115C1CC2003D00FAA96A /* Headers */,
 				07A9115D1CC2003D00FAA96A /* Resources */,
-				07A9118E1CC2074300FAA96A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -202,24 +205,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		07A9118E1CC2074300FAA96A /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07A9115A1CC2003D00FAA96A /* Sources */ = {

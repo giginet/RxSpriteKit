@@ -4,5 +4,5 @@ matrix:
   include:
     - os: osx
       env: TYPE=xcode
-install: carthage update --platform ios
+install: carthage bootstrap --use-submodules --no-build --platform ios
 script: ./run_tests
