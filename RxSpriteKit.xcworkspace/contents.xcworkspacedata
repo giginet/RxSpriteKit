@@ -7,4 +7,10 @@
    <FileRef
       location = "group:Carthage/Checkouts/RxSwift/Rx.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/RxSwift/../Nimble/Nimble.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Quick/Quick.xcodeproj">
+   </FileRef>
 </Workspace>

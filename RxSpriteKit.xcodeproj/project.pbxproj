@@ -13,9 +13,11 @@
 		07A9116E1CC2054C00FAA96A /* RxSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07A9117C1CC205EF00FAA96A /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A9115F1CC2003D00FAA96A /* RxSpriteKit.framework */; };
 		07A911851CC2060D00FAA96A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07A911831CC2060D00FAA96A /* Info.plist */; };
-		07A911861CC2060D00FAA96A /* RxSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A911841CC2060D00FAA96A /* RxSpriteKitTests.swift */; };
 		07AF0D201CC222EE00CCEAC2 /* ControlProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF0D1F1CC222EE00CCEAC2 /* ControlProperty.swift */; };
 		07AF0D221CC2230500CCEAC2 /* NodeBindingObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF0D211CC2230500CCEAC2 /* NodeBindingObserver.swift */; };
+		07AF0D261CC224CD00CCEAC2 /* SKNode+RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF0D251CC224CD00CCEAC2 /* SKNode+RxTest.swift */; };
+		07AF0D3D1CC2260000CCEAC2 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF0D3C1CC2260000CCEAC2 /* Nimble.framework */; };
+		07AF0D3F1CC2260500CCEAC2 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF0D3E1CC2260500CCEAC2 /* Quick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +50,11 @@
 		07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxSpriteKit.h; sourceTree = "<group>"; };
 		07A911771CC205EF00FAA96A /* RxSpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSpriteKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A911831CC2060D00FAA96A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07A911841CC2060D00FAA96A /* RxSpriteKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSpriteKitTests.swift; sourceTree = "<group>"; };
 		07AF0D1F1CC222EE00CCEAC2 /* ControlProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlProperty.swift; sourceTree = "<group>"; };
 		07AF0D211CC2230500CCEAC2 /* NodeBindingObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeBindingObserver.swift; sourceTree = "<group>"; };
+		07AF0D251CC224CD00CCEAC2 /* SKNode+RxTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+RxTest.swift"; sourceTree = "<group>"; };
+		07AF0D3C1CC2260000CCEAC2 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../Develop/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		07AF0D3E1CC2260500CCEAC2 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../Develop/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07AF0D3F1CC2260500CCEAC2 /* Quick.framework in Frameworks */,
+				07AF0D3D1CC2260000CCEAC2 /* Nimble.framework in Frameworks */,
 				07A9117C1CC205EF00FAA96A /* RxSpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +90,8 @@
 		07A911551CC2003D00FAA96A = {
 			isa = PBXGroup;
 			children = (
+				07AF0D3E1CC2260500CCEAC2 /* Quick.framework */,
+				07AF0D3C1CC2260000CCEAC2 /* Nimble.framework */,
 				07428D251CC213EE0013210E /* RxSwift.framework */,
 				07A9116A1CC2054C00FAA96A /* RxSpriteKit */,
 				07A911821CC2060D00FAA96A /* Tests */,
@@ -116,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				07A911831CC2060D00FAA96A /* Info.plist */,
-				07A911841CC2060D00FAA96A /* RxSpriteKitTests.swift */,
+				07AF0D251CC224CD00CCEAC2 /* SKNode+RxTest.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -251,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07A911861CC2060D00FAA96A /* RxSpriteKitTests.swift in Sources */,
+				07AF0D261CC224CD00CCEAC2 /* SKNode+RxTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
