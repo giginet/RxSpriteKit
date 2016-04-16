@@ -1,5 +1,6 @@
 import SpriteKit
 import RxSwift
+import RxCocoa
 
 extension SKNode {
     public var rx_position: ControlProperty<CGPoint> {
@@ -10,8 +11,9 @@ extension SKNode {
             }
         }
         .distinctUntilChanged()
+        .takeUntil(self.rx_deallocated)
         
-        let bindingObserver = NodeBindingObserver(UIElement: self) { node, position in
+        let bindingObserver = UIBindingObserver(UIElement: self) { node, position in
             node.position = position
         }
         return ControlProperty(values: source, valueSink: bindingObserver)
@@ -19,7 +21,7 @@ extension SKNode {
     
     
     public var rx_hidden: AnyObserver<Bool> {
-        return NodeBindingObserver(UIElement: self) { view, hidden in
+        return UIBindingObserver(UIElement: self) { view, hidden in
             view.hidden = hidden
             }.asObserver()
     }
