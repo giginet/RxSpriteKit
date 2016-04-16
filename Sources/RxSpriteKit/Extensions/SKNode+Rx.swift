@@ -3,71 +3,55 @@ import RxSwift
 import RxCocoa
 
 extension SKNode {
-    public var rx_position: ControlProperty<CGPoint> {
-        let source = Observable<CGPoint>.create { observer in
-            observer.on(.Next(self.position))
-            return NopDisposable.instance
+    func observerForPropertyName<ValueType>(propertyName: String) -> AnyObserver<ValueType> {
+        return UIBindingObserver(UIElement: self) { node, value in
+            if let value = value as? AnyObject {
+                self.setValue(value, forKeyPath: propertyName)
             }
-            .distinctUntilChanged()
-            .takeUntil(self.rx_deallocated)
-        
-        let bindingObserver = UIBindingObserver(UIElement: self) { node, position in
-            node.position = position
-        }
-        return ControlProperty(values: source, valueSink: bindingObserver)
+        }.asObserver()
+    }
+    
+    public var rx_position: AnyObserver<CGPoint> {
+        return UIBindingObserver(UIElement: self) { node, value in
+            node.position = value
+        }.asObserver()
     }
     
     public var rx_scale: AnyObserver<CGFloat> {
         return UIBindingObserver(UIElement: self) { node, scale in
             node.setScale(scale)
-            }.asObserver()
+        }.asObserver()
     }
     
     public var rx_xScale: AnyObserver<CGFloat> {
-        return UIBindingObserver(UIElement: self) { node, xScale in
-            node.xScale = xScale
-            }.asObserver()
+        return self.observerForPropertyName("xScale")
     }
     
     public var rx_yScale: AnyObserver<CGFloat> {
-        return UIBindingObserver(UIElement: self) { node, yScale in
-            node.yScale = yScale
-            }.asObserver()
+        return self.observerForPropertyName("yScale")
     }
     
     public var rx_zRotation: AnyObserver<CGFloat> {
-        return UIBindingObserver(UIElement: self) { node, zRotation in
-            node.zRotation = zRotation
-            }.asObserver()
+        return self.observerForPropertyName("zRotation")
     }
     
     public var rx_alpha: AnyObserver<CGFloat> {
-        return UIBindingObserver(UIElement: self) { node, alpha in
-            node.alpha = alpha
-            }.asObserver()
+        return self.observerForPropertyName("alpha")
     }
 
     public var rx_hidden: AnyObserver<Bool> {
-        return UIBindingObserver(UIElement: self) { node, hidden in
-            node.hidden = hidden
-            }.asObserver()
+        return self.observerForPropertyName("hidden")
     }
     
     public var rx_name: AnyObserver<String?> {
-        return UIBindingObserver(UIElement: self) { node, name in
-            node.name = name
-            }.asObserver()
+        return self.observerForPropertyName("name")
     }
     
     public var rx_speed: AnyObserver<CGFloat> {
-        return UIBindingObserver(UIElement: self) { node, speed in
-            node.speed = speed
-            }.asObserver()
+        return self.observerForPropertyName("speed")
     }
     
     public var rx_paused: AnyObserver<Bool> {
-        return UIBindingObserver(UIElement: self) { node, paused in
-            node.paused = paused
-            }.asObserver()
+        return self.observerForPropertyName("paused")
     }
 }

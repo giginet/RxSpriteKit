@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		07428D291CC214000013210E /* SKNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07428D281CC214000013210E /* SKNode+Rx.swift */; };
 		074CA62E1CC230240078333A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074CA62D1CC230240078333A /* CoreLocation.framework */; };
+		074CA6301CC23AAD0078333A /* SKLabelNode+RxSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CA62F1CC23AAD0078333A /* SKLabelNode+RxSwift.swift */; };
 		07A9116E1CC2054C00FAA96A /* RxSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07A9117C1CC205EF00FAA96A /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A9115F1CC2003D00FAA96A /* RxSpriteKit.framework */; };
 		07AF0D261CC224CD00CCEAC2 /* SKNode+RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF0D251CC224CD00CCEAC2 /* SKNode+RxTest.swift */; };
@@ -16,6 +17,7 @@
 		07AF0D461CC22B3000CCEAC2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF0D441CC22B3000CCEAC2 /* RxSwift.framework */; };
 		07AF0D491CC22B3F00CCEAC2 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF0D471CC22B3F00CCEAC2 /* Nimble.framework */; };
 		07AF0D4A1CC22B3F00CCEAC2 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF0D481CC22B3F00CCEAC2 /* Quick.framework */; };
+		07D88A5D1CC26B1A00991CAB /* SKLabel+RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D88A5B1CC26A3200991CAB /* SKLabel+RxTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,7 @@
 /* Begin PBXFileReference section */
 		07428D281CC214000013210E /* SKNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Rx.swift"; sourceTree = "<group>"; };
 		074CA62D1CC230240078333A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		074CA62F1CC23AAD0078333A /* SKLabelNode+RxSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabelNode+RxSwift.swift"; sourceTree = "<group>"; };
 		07A9115F1CC2003D00FAA96A /* RxSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A9116B1CC2054C00FAA96A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxSpriteKit.h; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		07AF0D441CC22B3000CCEAC2 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
 		07AF0D471CC22B3F00CCEAC2 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
 		07AF0D481CC22B3F00CCEAC2 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
+		07D88A5B1CC26A3200991CAB /* SKLabel+RxTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabel+RxTest.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				07428D281CC214000013210E /* SKNode+Rx.swift */,
+				074CA62F1CC23AAD0078333A /* SKLabelNode+RxSwift.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			children = (
 				07A911831CC2060D00FAA96A /* Info.plist */,
 				07AF0D251CC224CD00CCEAC2 /* SKNode+RxTest.swift */,
+				07D88A5B1CC26A3200991CAB /* SKLabel+RxTest.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074CA6301CC23AAD0078333A /* SKLabelNode+RxSwift.swift in Sources */,
 				07428D291CC214000013210E /* SKNode+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D88A5D1CC26B1A00991CAB /* SKLabel+RxTest.swift in Sources */,
 				07AF0D261CC224CD00CCEAC2 /* SKNode+RxTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

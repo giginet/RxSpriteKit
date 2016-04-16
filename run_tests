@@ -1,1 +1,1 @@
-xcodebuild clean test -workspace RxSpriteKit.xcworkspace -scheme RxSpriteKit -destination 'platform=iOS Simulator,name=iPhone 6' | xcpretty -c
+xcodebuild test -workspace RxSpriteKit.xcworkspace -scheme RxSpriteKit -destination 'platform=iOS Simulator,name=iPhone 6' | xcpretty -c
