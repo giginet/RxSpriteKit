@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07428D241CC213E90013210E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07428D231CC213E90013210E /* RxCocoa.framework */; };
+		07428D261CC213EE0013210E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07428D251CC213EE0013210E /* RxSwift.framework */; };
+		07428D291CC214000013210E /* SKNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07428D281CC214000013210E /* SKNode+Rx.swift */; };
 		07A9116D1CC2054C00FAA96A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07A9116B1CC2054C00FAA96A /* Info.plist */; };
-		07A9116E1CC2054C00FAA96A /* RxSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */; };
+		07A9116E1CC2054C00FAA96A /* RxSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07A9117C1CC205EF00FAA96A /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A9115F1CC2003D00FAA96A /* RxSpriteKit.framework */; };
 		07A911851CC2060D00FAA96A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07A911831CC2060D00FAA96A /* Info.plist */; };
 		07A911861CC2060D00FAA96A /* RxSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A911841CC2060D00FAA96A /* RxSpriteKitTests.swift */; };
-		07A911911CC20F1500FAA96A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A911901CC20F1500FAA96A /* RxCocoa.framework */; };
-		07A911931CC20F1900FAA96A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A911921CC20F1900FAA96A /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,17 +27,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		07428D2A1CC216DF0013210E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		07428D231CC213E90013210E /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "../../Library/Developer/Xcode/DerivedData/RxSpriteKit-agshyuwuisgufkcvvzuidijnaxqj/Build/Products/Debug-iphonesimulator/RxCocoa.framework"; sourceTree = "<group>"; };
+		07428D251CC213EE0013210E /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/RxSpriteKit-agshyuwuisgufkcvvzuidijnaxqj/Build/Products/Debug-iphonesimulator/RxSwift.framework"; sourceTree = "<group>"; };
+		07428D281CC214000013210E /* SKNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Rx.swift"; sourceTree = "<group>"; };
+		074A520A1CC21951003A165A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		07A9115F1CC2003D00FAA96A /* RxSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A9116B1CC2054C00FAA96A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxSpriteKit.h; sourceTree = "<group>"; };
 		07A911771CC205EF00FAA96A /* RxSpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSpriteKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A911831CC2060D00FAA96A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07A911841CC2060D00FAA96A /* RxSpriteKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSpriteKitTests.swift; sourceTree = "<group>"; };
-		07A911871CC206C600FAA96A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		07A911881CC206C600FAA96A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		07A911901CC20F1500FAA96A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "../../Library/Developer/Xcode/DerivedData/RxSpriteKit-agshyuwuisgufkcvvzuidijnaxqj/Build/Products/Debug-iphonesimulator/RxCocoa.framework"; sourceTree = "<group>"; };
-		07A911921CC20F1900FAA96A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/RxSpriteKit-agshyuwuisgufkcvvzuidijnaxqj/Build/Products/Debug-iphonesimulator/RxSwift.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07A911931CC20F1900FAA96A /* RxSwift.framework in Frameworks */,
-				07A911911CC20F1500FAA96A /* RxCocoa.framework in Frameworks */,
+				07428D261CC213EE0013210E /* RxSwift.framework in Frameworks */,
+				07428D241CC213E90013210E /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,13 +73,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07428D271CC214000013210E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				07428D281CC214000013210E /* SKNode+Rx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		07A911551CC2003D00FAA96A = {
 			isa = PBXGroup;
 			children = (
-				07A911921CC20F1900FAA96A /* RxSwift.framework */,
-				07A911901CC20F1500FAA96A /* RxCocoa.framework */,
-				07A911871CC206C600FAA96A /* RxCocoa.framework */,
-				07A911881CC206C600FAA96A /* RxSwift.framework */,
+				074A520A1CC21951003A165A /* CoreLocation.framework */,
+				07428D251CC213EE0013210E /* RxSwift.framework */,
+				07428D231CC213E90013210E /* RxCocoa.framework */,
 				07A9116A1CC2054C00FAA96A /* RxSpriteKit */,
 				07A911821CC2060D00FAA96A /* Tests */,
 				07A911601CC2003D00FAA96A /* Products */,
@@ -85,6 +105,7 @@
 		07A9116A1CC2054C00FAA96A /* RxSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				07428D271CC214000013210E /* Extensions */,
 				07A9116B1CC2054C00FAA96A /* Info.plist */,
 				07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */,
 			);
@@ -123,6 +144,7 @@
 				07A9115B1CC2003D00FAA96A /* Frameworks */,
 				07A9115C1CC2003D00FAA96A /* Headers */,
 				07A9115D1CC2003D00FAA96A /* Resources */,
+				07428D2A1CC216DF0013210E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -211,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07428D291CC214000013210E /* SKNode+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +354,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -338,6 +362,7 @@
 				INFOPLIST_FILE = Sources/RxSpriteKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -351,6 +376,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -367,6 +393,7 @@
 		07A911801CC205EF00FAA96A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKitTests;
@@ -377,6 +404,7 @@
 		07A911811CC205EF00FAA96A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKitTests;
@@ -412,6 +440,7 @@
 				07A911811CC205EF00FAA96A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
