@@ -1,0 +1,8 @@
+osx_image: xcode7.3
+language: generic
+matrix:
+  include:
+    - os: osx
+      env: TYPE=xcode
+install: carthage update --platform ios
+script: ./run_tests
