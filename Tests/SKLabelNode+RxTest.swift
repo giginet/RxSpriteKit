@@ -85,13 +85,13 @@ class SKLabelNodeRxTests: QuickSpec {
             }
             
             it("rx_colorBlendFactor") {
-                let value = Variable<CGFloat>(10)
+                let value = Variable<CGFloat>(0.5)
                 value.asObservable().bindTo(label.rx_colorBlendFactor).addDisposableTo(disposeBag)
                 
-                expect(label.colorBlendFactor).to(equal(10))
+                expect(label.colorBlendFactor).to(equal(0.5))
                 
-                value.value = 20
-                expect(label.colorBlendFactor).to(equal(20))
+                value.value = 0.8
+                expect(label.colorBlendFactor).to(beCloseTo(0.8, within: 0.001))
             }
             
             it("rx_blendMode") {

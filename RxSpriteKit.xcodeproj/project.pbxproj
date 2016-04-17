@@ -17,7 +17,9 @@
 		07AF0D461CC22B3000CCEAC2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF0D441CC22B3000CCEAC2 /* RxSwift.framework */; };
 		07AF0D491CC22B3F00CCEAC2 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF0D471CC22B3F00CCEAC2 /* Nimble.framework */; };
 		07AF0D4A1CC22B3F00CCEAC2 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF0D481CC22B3F00CCEAC2 /* Quick.framework */; };
-		07D88A5D1CC26B1A00991CAB /* SKLabel+RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D88A5B1CC26A3200991CAB /* SKLabel+RxTest.swift */; };
+		07D71BD41CC325F800D27F12 /* SKSpriteNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D71BD31CC325F800D27F12 /* SKSpriteNode+Rx.swift */; };
+		07D71BD71CC329E100D27F12 /* SKSpriteNode+RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D71BD51CC329D200D27F12 /* SKSpriteNode+RxTest.swift */; };
+		07D88A5D1CC26B1A00991CAB /* SKLabelNode+RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D88A5B1CC26A3200991CAB /* SKLabelNode+RxTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +58,9 @@
 		07AF0D441CC22B3000CCEAC2 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
 		07AF0D471CC22B3F00CCEAC2 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
 		07AF0D481CC22B3F00CCEAC2 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
-		07D88A5B1CC26A3200991CAB /* SKLabel+RxTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabel+RxTest.swift"; sourceTree = "<group>"; };
+		07D71BD31CC325F800D27F12 /* SKSpriteNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+Rx.swift"; sourceTree = "<group>"; };
+		07D71BD51CC329D200D27F12 /* SKSpriteNode+RxTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+RxTest.swift"; sourceTree = "<group>"; };
+		07D88A5B1CC26A3200991CAB /* SKLabelNode+RxTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabelNode+RxTest.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 			children = (
 				07428D281CC214000013210E /* SKNode+Rx.swift */,
 				074CA62F1CC23AAD0078333A /* SKLabelNode+RxSwift.swift */,
+				07D71BD31CC325F800D27F12 /* SKSpriteNode+Rx.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -131,7 +136,8 @@
 			children = (
 				07A911831CC2060D00FAA96A /* Info.plist */,
 				07AF0D251CC224CD00CCEAC2 /* SKNode+RxTest.swift */,
-				07D88A5B1CC26A3200991CAB /* SKLabel+RxTest.swift */,
+				07D88A5B1CC26A3200991CAB /* SKLabelNode+RxTest.swift */,
+				07D71BD51CC329D200D27F12 /* SKSpriteNode+RxTest.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 			files = (
 				074CA6301CC23AAD0078333A /* SKLabelNode+RxSwift.swift in Sources */,
 				07428D291CC214000013210E /* SKNode+Rx.swift in Sources */,
+				07D71BD41CC325F800D27F12 /* SKSpriteNode+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07D88A5D1CC26B1A00991CAB /* SKLabel+RxTest.swift in Sources */,
+				07D88A5D1CC26B1A00991CAB /* SKLabelNode+RxTest.swift in Sources */,
 				07AF0D261CC224CD00CCEAC2 /* SKNode+RxTest.swift in Sources */,
+				07D71BD71CC329E100D27F12 /* SKSpriteNode+RxTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
