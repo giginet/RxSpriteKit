@@ -3,6 +3,31 @@ import RxSwift
 import RxCocoa
 
 extension SKNode {
+    func controlPropertyForName<ValueType: Equatable>(getter: (SKNode) -> ValueType,
+                                setter: (SKNode, ValueType) -> Void) -> ControlProperty<ValueType> {
+        let source: Observable<ValueType> = Observable.create { [weak weakNode = self] observer in
+            guard let node = weakNode else {
+                observer.on(.Completed)
+                return NopDisposable.instance
+            }
+            
+            observer.on(.Next(getter(node)))
+            
+            let nodeTarget = NodeTarget<SKNode, ValueType>(node: self, getter: getter, setter: setter)
+            return AnonymousDisposable {
+                nodeTarget.dispose()
+            }
+            }
+            .distinctUntilChanged()
+            .takeUntil((self as NSObject).rx_deallocated)
+        
+        let bindingObserver = UIBindingObserver<SKNode, ValueType>(UIElement: self, binding: { node, value in
+        })
+        
+        return ControlProperty<ValueType>(values: source, valueSink: bindingObserver)
+    }
+
+    
     func observerForPropertyName<ValueType>(propertyName: String) -> AnyObserver<ValueType> {
         return UIBindingObserver(UIElement: self) { node, value in
             if let value = value as? AnyObject {
@@ -11,10 +36,12 @@ extension SKNode {
         }.asObserver()
     }
     
-    public var rx_position: AnyObserver<CGPoint> {
-        return UIBindingObserver(UIElement: self) { node, value in
-            node.position = value
-        }.asObserver()
+    public var rx_position: ControlProperty<CGPoint> {
+        return controlPropertyForName({ (node) in
+            return self.position
+        }, setter: { (node, value) in
+                self.position = value
+        })
     }
     
     public var rx_scale: AnyObserver<CGFloat> {

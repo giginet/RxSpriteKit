@@ -3,8 +3,8 @@ import RxSwift
 import RxCocoa
 
 extension SKLabelNode {
-    public var rx_text: AnyObserver<String?> {
-        return self.observerForPropertyName("text")
+    public var rx_text: ControlProperty<String?> {
+        return self.controlPropertyForName("text")
     }
     
     public var rx_fontColor: AnyObserver<UIColor?> {

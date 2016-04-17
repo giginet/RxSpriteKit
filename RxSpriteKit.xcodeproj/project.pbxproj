@@ -10,6 +10,8 @@
 		07428D291CC214000013210E /* SKNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07428D281CC214000013210E /* SKNode+Rx.swift */; };
 		074CA62E1CC230240078333A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074CA62D1CC230240078333A /* CoreLocation.framework */; };
 		074CA6301CC23AAD0078333A /* SKLabelNode+RxSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CA62F1CC23AAD0078333A /* SKLabelNode+RxSwift.swift */; };
+		07A1AF351CC33CD10033C783 /* RxSpriteKitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A1AF341CC33CD10033C783 /* RxSpriteKitTest.swift */; };
+		07A1AF3C1CC34BF00033C783 /* NodeTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A1AF3B1CC34BF00033C783 /* NodeTarget.swift */; };
 		07A9116E1CC2054C00FAA96A /* RxSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07A9117C1CC205EF00FAA96A /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A9115F1CC2003D00FAA96A /* RxSpriteKit.framework */; };
 		07AF0D261CC224CD00CCEAC2 /* SKNode+RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF0D251CC224CD00CCEAC2 /* SKNode+RxTest.swift */; };
@@ -48,6 +50,8 @@
 		07428D281CC214000013210E /* SKNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Rx.swift"; sourceTree = "<group>"; };
 		074CA62D1CC230240078333A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		074CA62F1CC23AAD0078333A /* SKLabelNode+RxSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabelNode+RxSwift.swift"; sourceTree = "<group>"; };
+		07A1AF341CC33CD10033C783 /* RxSpriteKitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSpriteKitTest.swift; sourceTree = "<group>"; };
+		07A1AF3B1CC34BF00033C783 /* NodeTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NodeTarget.swift; path = Core/NodeTarget.swift; sourceTree = "<group>"; };
 		07A9115F1CC2003D00FAA96A /* RxSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A9116B1CC2054C00FAA96A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxSpriteKit.h; sourceTree = "<group>"; };
@@ -97,6 +101,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		07A1AF3A1CC34BDB0033C783 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				07A1AF3B1CC34BF00033C783 /* NodeTarget.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		07A911551CC2003D00FAA96A = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +135,7 @@
 		07A9116A1CC2054C00FAA96A /* RxSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				07A1AF3A1CC34BDB0033C783 /* Core */,
 				07428D271CC214000013210E /* Extensions */,
 				07A9116B1CC2054C00FAA96A /* Info.plist */,
 				07A9116C1CC2054C00FAA96A /* RxSpriteKit.h */,
@@ -138,6 +151,7 @@
 				07AF0D251CC224CD00CCEAC2 /* SKNode+RxTest.swift */,
 				07D88A5B1CC26A3200991CAB /* SKLabelNode+RxTest.swift */,
 				07D71BD51CC329D200D27F12 /* SKSpriteNode+RxTest.swift */,
+				07A1AF341CC33CD10033C783 /* RxSpriteKitTest.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -251,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A1AF3C1CC34BF00033C783 /* NodeTarget.swift in Sources */,
 				074CA6301CC23AAD0078333A /* SKLabelNode+RxSwift.swift in Sources */,
 				07428D291CC214000013210E /* SKNode+Rx.swift in Sources */,
 				07D71BD41CC325F800D27F12 /* SKSpriteNode+Rx.swift in Sources */,
@@ -262,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07D88A5D1CC26B1A00991CAB /* SKLabelNode+RxTest.swift in Sources */,
+				07A1AF351CC33CD10033C783 /* RxSpriteKitTest.swift in Sources */,
 				07AF0D261CC224CD00CCEAC2 /* SKNode+RxTest.swift in Sources */,
 				07D71BD71CC329E100D27F12 /* SKSpriteNode+RxTest.swift in Sources */,
 			);

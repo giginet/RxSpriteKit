@@ -8,7 +8,7 @@ import SpriteKit
 
 class SKSpriteNodeRxTests: QuickSpec {
     override func spec() {
-        describe("SKLabelNode extension") {
+        describe("SKSpriteNode extension") {
             let disposeBag: DisposeBag = DisposeBag()
             var sprite: SKSpriteNode!
             
