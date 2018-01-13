@@ -1,13 +1,14 @@
 //
 //  GameScene.swift
-//  RxSpriteKitDemo-iOS
+//  RxSpriteKit
 //
-//  Created by giginet on 2018/01/13.
+//  Created by giginet on 2018/01/10.
 //  Copyright © 2018 giginet. All rights reserved.
 //
 
 import SpriteKit
 import GameplayKit
+import RxSpriteKit
 
 class GameScene: SKScene {
     
@@ -44,6 +45,7 @@ class GameScene: SKScene {
             n.strokeColor = SKColor.green
             self.addChild(n)
         }
+        label?.rx.position.onNext(pos)
     }
     
     func touchMoved(toPoint pos : CGPoint) {
@@ -81,7 +83,6 @@ class GameScene: SKScene {
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         for t in touches { self.touchUp(atPoint: t.location(in: self)) }
     }
-    
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered

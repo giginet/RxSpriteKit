@@ -12,7 +12,6 @@
 		070D18D4200A40B5001CFC8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070D18BB200A40B5001CFC8D /* Main.storyboard */; };
 		070D18D6200A40B5001CFC8D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 070D18BE200A40B5001CFC8D /* GameScene.sks */; };
 		070D18D8200A40B5001CFC8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D18BF200A40B5001CFC8D /* AppDelegate.swift */; };
-		070D18DA200A40B5001CFC8D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D18C0200A40B5001CFC8D /* GameScene.swift */; };
 		070D18DC200A40B5001CFC8D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 070D18C1200A40B5001CFC8D /* Info.plist */; };
 		070D18DE200A40B5001CFC8D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 070D18C2200A40B5001CFC8D /* Actions.sks */; };
 		070D18DF200A40B5001CFC8D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D18C4200A40B5001CFC8D /* GameViewController.swift */; };
@@ -21,18 +20,45 @@
 		070D18E5200A40B5001CFC8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070D18C8200A40B5001CFC8D /* Main.storyboard */; };
 		070D18E7200A40B5001CFC8D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 070D18CA200A40B5001CFC8D /* GameScene.sks */; };
 		070D18E9200A40B5001CFC8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D18CB200A40B5001CFC8D /* AppDelegate.swift */; };
-		070D18EB200A40B5001CFC8D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D18CC200A40B5001CFC8D /* GameScene.swift */; };
 		070D18ED200A40B5001CFC8D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 070D18CD200A40B5001CFC8D /* Info.plist */; };
 		070D18EF200A40B5001CFC8D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 070D18CE200A40B5001CFC8D /* Actions.sks */; };
+		074A715E200A43220087739C /* SKNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A715D200A43220087739C /* SKNode+Rx.swift */; };
+		074A7162200A433E0087739C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7160200A433E0087739C /* RxCocoa.framework */; };
+		074A7163200A433E0087739C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7161200A433E0087739C /* RxSwift.framework */; };
+		074A7165200A44260087739C /* SKNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A715D200A43220087739C /* SKNode+Rx.swift */; };
+		074A7168200A449F0087739C /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA3C2006407E001A1FE1 /* RxSpriteKit.framework */; };
+		074A716B200A44C30087739C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7169200A44C30087739C /* RxCocoa.framework */; };
+		074A716C200A44C30087739C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A716A200A44C30087739C /* RxSwift.framework */; };
+		074A716E200A458D0087739C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A716D200A458D0087739C /* GameScene.swift */; };
+		074A7170200A45ED0087739C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7160200A433E0087739C /* RxCocoa.framework */; };
+		074A7171200A45ED0087739C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7161200A433E0087739C /* RxSwift.framework */; };
+		074A7175200A46D30087739C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7169200A44C30087739C /* RxCocoa.framework */; };
+		074A7176200A46D30087739C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A716A200A44C30087739C /* RxSwift.framework */; };
+		074A7177200A472E0087739C /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA4E20064098001A1FE1 /* RxSpriteKit.framework */; };
 		074F6765200655CB003F3D9B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 074F6764200655CB003F3D9B /* Info.plist */; };
 		074F6766200655CB003F3D9B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 074F6764200655CB003F3D9B /* Info.plist */; };
-		0779CA64200640B8001A1FE1 /* RxSpriteKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA3C2006407E001A1FE1 /* RxSpriteKit_iOS.framework */; };
-		0779CA732006542E001A1FE1 /* RxSpriteKit_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA4E20064098001A1FE1 /* RxSpriteKit_macOS.framework */; };
+		0779CA64200640B8001A1FE1 /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA3C2006407E001A1FE1 /* RxSpriteKit.framework */; };
+		0779CA732006542E001A1FE1 /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA4E20064098001A1FE1 /* RxSpriteKit.framework */; };
 		0779CA9B20065533001A1FE1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0779CA9A20065533001A1FE1 /* Info.plist */; };
 		0779CA9C20065533001A1FE1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0779CA9A20065533001A1FE1 /* Info.plist */; };
+		0796F86C200B5568004CFBE5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F86A200B53E1004CFBE5 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		074A7178200A47540087739C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0779C9E620063CA9001A1FE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0779CA3B2006407E001A1FE1;
+			remoteInfo = "RxSpriteKit-iOS";
+		};
+		074A717A200A47570087739C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0779C9E620063CA9001A1FE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0779CA4D20064098001A1FE1;
+			remoteInfo = "RxSpriteKit-macOS";
+		};
 		0779CA65200640B8001A1FE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0779C9E620063CA9001A1FE1 /* Project object */;
@@ -76,7 +102,6 @@
 		070D18BD200A40B5001CFC8D /* RxSpriteKitDemo.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = RxSpriteKitDemo.entitlements; sourceTree = "<group>"; };
 		070D18BE200A40B5001CFC8D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		070D18BF200A40B5001CFC8D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		070D18C0200A40B5001CFC8D /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		070D18C1200A40B5001CFC8D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		070D18C2200A40B5001CFC8D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		070D18C4200A40B5001CFC8D /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -85,15 +110,21 @@
 		070D18C9200A40B5001CFC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		070D18CA200A40B5001CFC8D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		070D18CB200A40B5001CFC8D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		070D18CC200A40B5001CFC8D /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		070D18CD200A40B5001CFC8D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		070D18CE200A40B5001CFC8D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		074A715D200A43220087739C /* SKNode+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+Rx.swift"; sourceTree = "<group>"; };
+		074A7160200A433E0087739C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		074A7161200A433E0087739C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		074A7169200A44C30087739C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
+		074A716A200A44C30087739C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
+		074A716D200A458D0087739C /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		074F6764200655CB003F3D9B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0779CA3C2006407E001A1FE1 /* RxSpriteKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSpriteKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0779CA4E20064098001A1FE1 /* RxSpriteKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSpriteKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0779CA3C2006407E001A1FE1 /* RxSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0779CA4E20064098001A1FE1 /* RxSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0779CA5F200640B8001A1FE1 /* RxSpriteKitTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSpriteKitTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0779CA6E2006542D001A1FE1 /* RxSpriteKitTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSpriteKitTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0779CA9A20065533001A1FE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0796F86A200B53E1004CFBE5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +132,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074A7177200A472E0087739C /* RxSpriteKit.framework in Frameworks */,
+				074A7175200A46D30087739C /* RxCocoa.framework in Frameworks */,
+				074A7176200A46D30087739C /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +142,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074A7170200A45ED0087739C /* RxCocoa.framework in Frameworks */,
+				074A7171200A45ED0087739C /* RxSwift.framework in Frameworks */,
+				074A7168200A449F0087739C /* RxSpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +152,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074A7162200A433E0087739C /* RxCocoa.framework in Frameworks */,
+				074A7163200A433E0087739C /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +161,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074A716C200A44C30087739C /* RxSwift.framework in Frameworks */,
+				074A716B200A44C30087739C /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0779CA64200640B8001A1FE1 /* RxSpriteKit_iOS.framework in Frameworks */,
+				0779CA64200640B8001A1FE1 /* RxSpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0779CA732006542E001A1FE1 /* RxSpriteKit_macOS.framework in Frameworks */,
+				0779CA732006542E001A1FE1 /* RxSpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,15 +238,15 @@
 		070D18B8200A40B5001CFC8D /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				070D18B9200A40B5001CFC8D /* ViewController.swift */,
+				070D18C2200A40B5001CFC8D /* Actions.sks */,
+				070D18BF200A40B5001CFC8D /* AppDelegate.swift */,
 				070D18BA200A40B5001CFC8D /* Assets.xcassets */,
+				070D18BE200A40B5001CFC8D /* GameScene.sks */,
+				0796F86A200B53E1004CFBE5 /* GameScene.swift */,
+				070D18C1200A40B5001CFC8D /* Info.plist */,
 				070D18BB200A40B5001CFC8D /* Main.storyboard */,
 				070D18BD200A40B5001CFC8D /* RxSpriteKitDemo.entitlements */,
-				070D18BE200A40B5001CFC8D /* GameScene.sks */,
-				070D18BF200A40B5001CFC8D /* AppDelegate.swift */,
-				070D18C0200A40B5001CFC8D /* GameScene.swift */,
-				070D18C1200A40B5001CFC8D /* Info.plist */,
-				070D18C2200A40B5001CFC8D /* Actions.sks */,
+				070D18B9200A40B5001CFC8D /* ViewController.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -213,23 +254,35 @@
 		070D18C3200A40B5001CFC8D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				070D18C4200A40B5001CFC8D /* GameViewController.swift */,
+				070D18CE200A40B5001CFC8D /* Actions.sks */,
+				070D18CB200A40B5001CFC8D /* AppDelegate.swift */,
 				070D18C5200A40B5001CFC8D /* Assets.xcassets */,
+				070D18CA200A40B5001CFC8D /* GameScene.sks */,
+				074A716D200A458D0087739C /* GameScene.swift */,
+				070D18C4200A40B5001CFC8D /* GameViewController.swift */,
+				070D18CD200A40B5001CFC8D /* Info.plist */,
 				070D18C6200A40B5001CFC8D /* LaunchScreen.storyboard */,
 				070D18C8200A40B5001CFC8D /* Main.storyboard */,
-				070D18CA200A40B5001CFC8D /* GameScene.sks */,
-				070D18CB200A40B5001CFC8D /* AppDelegate.swift */,
-				070D18CC200A40B5001CFC8D /* GameScene.swift */,
-				070D18CD200A40B5001CFC8D /* Info.plist */,
-				070D18CE200A40B5001CFC8D /* Actions.sks */,
 			);
 			path = iOS;
+			sourceTree = "<group>";
+		};
+		074A715F200A433D0087739C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				074A7169200A44C30087739C /* RxCocoa.framework */,
+				074A716A200A44C30087739C /* RxSwift.framework */,
+				074A7160200A433E0087739C /* RxCocoa.framework */,
+				074A7161200A433E0087739C /* RxSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		074F6763200655CB003F3D9B /* RxSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
 				074F6764200655CB003F3D9B /* Info.plist */,
+				074A715D200A43220087739C /* SKNode+Rx.swift */,
 			);
 			path = RxSpriteKit;
 			sourceTree = "<group>";
@@ -241,14 +294,15 @@
 				0779CA9820065533001A1FE1 /* Tests */,
 				0779C9EF20063CA9001A1FE1 /* Products */,
 				070D18B7200A40B5001CFC8D /* Demo */,
+				074A715F200A433D0087739C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		0779C9EF20063CA9001A1FE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0779CA3C2006407E001A1FE1 /* RxSpriteKit_iOS.framework */,
-				0779CA4E20064098001A1FE1 /* RxSpriteKit_macOS.framework */,
+				0779CA3C2006407E001A1FE1 /* RxSpriteKit.framework */,
+				0779CA4E20064098001A1FE1 /* RxSpriteKit.framework */,
 				0779CA5F200640B8001A1FE1 /* RxSpriteKitTests-iOS.xctest */,
 				0779CA6E2006542D001A1FE1 /* RxSpriteKitTests-macOS.xctest */,
 				070D186D200A3F42001CFC8D /* RxSpriteKitDemo-macOS.app */,
@@ -301,10 +355,12 @@
 				070D1869200A3F42001CFC8D /* Sources */,
 				070D186A200A3F42001CFC8D /* Frameworks */,
 				070D186B200A3F42001CFC8D /* Resources */,
+				074A7173200A46970087739C /* Carthage */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				074A717B200A47570087739C /* PBXTargetDependency */,
 			);
 			name = "RxSpriteKitDemo-macOS";
 			productName = RxSpriteKitDemo;
@@ -318,10 +374,12 @@
 				070D1883200A3F68001CFC8D /* Sources */,
 				070D1884200A3F68001CFC8D /* Frameworks */,
 				070D1885200A3F68001CFC8D /* Resources */,
+				074A7172200A46160087739C /* Carthage */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				074A7179200A47540087739C /* PBXTargetDependency */,
 			);
 			name = "RxSpriteKitDemo-iOS";
 			productName = "RxSpriteKitDemo-iOS";
@@ -336,6 +394,7 @@
 				0779CA382006407E001A1FE1 /* Frameworks */,
 				0779CA392006407E001A1FE1 /* Headers */,
 				0779CA3A2006407E001A1FE1 /* Resources */,
+				074A7164200A43440087739C /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -343,7 +402,7 @@
 			);
 			name = "RxSpriteKit-iOS";
 			productName = RxSpriteKit;
-			productReference = 0779CA3C2006407E001A1FE1 /* RxSpriteKit_iOS.framework */;
+			productReference = 0779CA3C2006407E001A1FE1 /* RxSpriteKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0779CA4D20064098001A1FE1 /* RxSpriteKit-macOS */ = {
@@ -354,6 +413,7 @@
 				0779CA4A20064098001A1FE1 /* Frameworks */,
 				0779CA4B20064098001A1FE1 /* Headers */,
 				0779CA4C20064098001A1FE1 /* Resources */,
+				074A7166200A443E0087739C /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -361,7 +421,7 @@
 			);
 			name = "RxSpriteKit-macOS";
 			productName = "RxSpriteKit-macOS";
-			productReference = 0779CA4E20064098001A1FE1 /* RxSpriteKit_macOS.framework */;
+			productReference = 0779CA4E20064098001A1FE1 /* RxSpriteKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0779CA5E200640B8001A1FE1 /* RxSpriteKitTests-iOS */ = {
@@ -420,6 +480,7 @@
 					};
 					0779CA3B2006407E001A1FE1 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					0779CA4D20064098001A1FE1 = {
@@ -519,12 +580,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		074A7164200A43440087739C /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		074A7166200A443E0087739C /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/RxCocoa.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		074A7172200A46160087739C /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		074A7173200A46970087739C /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/RxCocoa.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		070D1869200A3F42001CFC8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				070D18DA200A40B5001CFC8D /* GameScene.swift in Sources */,
+				0796F86C200B5568004CFBE5 /* GameScene.swift in Sources */,
 				070D18D8200A40B5001CFC8D /* AppDelegate.swift in Sources */,
 				070D18D0200A40B5001CFC8D /* ViewController.swift in Sources */,
 			);
@@ -534,7 +670,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				070D18EB200A40B5001CFC8D /* GameScene.swift in Sources */,
+				074A716E200A458D0087739C /* GameScene.swift in Sources */,
 				070D18DF200A40B5001CFC8D /* GameViewController.swift in Sources */,
 				070D18E9200A40B5001CFC8D /* AppDelegate.swift in Sources */,
 			);
@@ -544,6 +680,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074A715E200A43220087739C /* SKNode+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +688,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074A7165200A44260087739C /* SKNode+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +709,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		074A7179200A47540087739C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0779CA3B2006407E001A1FE1 /* RxSpriteKit-iOS */;
+			targetProxy = 074A7178200A47540087739C /* PBXContainerItemProxy */;
+		};
+		074A717B200A47570087739C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0779CA4D20064098001A1FE1 /* RxSpriteKit-macOS */;
+			targetProxy = 074A717A200A47570087739C /* PBXContainerItemProxy */;
+		};
 		0779CA66200640B8001A1FE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0779CA3B2006407E001A1FE1 /* RxSpriteKit-iOS */;
@@ -643,6 +791,10 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Demo/macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -661,6 +813,10 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Demo/macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -676,6 +832,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Demo/iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-iOS";
@@ -690,6 +850,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Demo/iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-iOS";
@@ -809,6 +973,7 @@
 		0779CA462006407E001A1FE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -816,12 +981,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxSpriteKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = RxSpriteKit;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -832,6 +1002,7 @@
 		0779CA472006407E001A1FE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -839,11 +1010,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxSpriteKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = RxSpriteKit;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -863,13 +1038,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = RxSpriteKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKit-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKit;
+				PRODUCT_NAME = RxSpriteKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -889,13 +1068,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = RxSpriteKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKit-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKit;
+				PRODUCT_NAME = RxSpriteKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -907,6 +1090,7 @@
 		0779CA68200640B8001A1FE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tests/RxSpriteKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -920,6 +1104,7 @@
 		0779CA69200640B8001A1FE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tests/RxSpriteKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -933,6 +1118,7 @@
 		0779CA772006542E001A1FE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -949,6 +1135,7 @@
 		0779CA782006542E001A1FE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
