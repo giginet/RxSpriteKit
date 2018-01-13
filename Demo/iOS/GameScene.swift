@@ -1,8 +1,8 @@
 //
 //  GameScene.swift
-//  RxSpriteKit
+//  RxSpriteKitDemo-iOS
 //
-//  Created by giginet on 2018/01/10.
+//  Created by giginet on 2018/01/13.
 //  Copyright © 2018 giginet. All rights reserved.
 //
 
