@@ -32,3 +32,23 @@ SKLabelNode:
   lineBreakMode: RSKLineBreakMode
   numberOfLines: Int
   preferredMaxLayoutWidth: CGFloat
+SKScene:
+  camera: SKCameraNode?
+  anchorPoint: CGPoint
+  size: CGSize
+  scaleMode: SKSceneScaleMode
+  backgroundColor: RSKColor 
+  listener: SKNode?
+SKView:
+  preferredFramesPerSecond: Int
+  isAsynchronous: Bool
+  allowsTransparency: Bool
+  ignoresSiblingOrder: Bool
+  shouldCullNonVisibleNodes: Bool
+  isPaused: Bool
+  showsFPS: Bool
+  showsQuadCount: Bool
+  showsDrawCount: Bool
+  showsNodeCount: Bool
+  showsPhysics: Bool
+  showsFields: Bool
