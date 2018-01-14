@@ -29,6 +29,6 @@ SKLabelNode:
   colorBlendFactor: CGFloat
   blendMode: SKBlendMode
   attributedText: NSAttributedString?
-  lineBreakMode: NSParagraphStyle.LineBreakMode
+  lineBreakMode: RSKLineBreakMode
   numberOfLines: Int
   preferredMaxLayoutWidth: CGFloat

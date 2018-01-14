@@ -53,7 +53,7 @@ extension Reactive where Base: SKLabelNode {
         }
     }
   
-    public var lineBreakMode: Binder<NSParagraphStyle.LineBreakMode>{
+    public var lineBreakMode: Binder<RSKLineBreakMode>{
         return Binder(self.base) { view, lineBreakMode in
             view.lineBreakMode = lineBreakMode
         }
