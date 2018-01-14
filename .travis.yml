@@ -1,0 +1,15 @@
+os: osx
+language: objective-c
+cache:
+  directories:
+    - Carthage/
+install:
+  - carthage update --platform $PLATFORM
+before_script: 
+  - swiftlint
+matrix:
+  include:
+    - env: PLATFORM=macOS
+    - env: PLATFORM=iOS
+script:
+  - xcodebuild -project RxSpriteKit.xcodeproj -scheme RxSpriteKitDemo-$PLATFORM
