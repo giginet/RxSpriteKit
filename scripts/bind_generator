@@ -26,7 +26,7 @@ classes.each do |swift_class|
   class_name = swift_class.name
   properties = swift_class.properties
   source_code = ERB.new(File.read(TEMPLATE_PATH)).result(binding)
-  file_name = "#{class_name}+Rx.swift"
+  file_name = "#{class_name}+Binder.swift"
   File.open(File.join(OUTPUT_DIR_PATH, file_name), "w+").write(source_code)
   puts "#{file_name} is saved."
 end
