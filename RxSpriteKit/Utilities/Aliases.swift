@@ -2,7 +2,7 @@ import Foundation
 
 #if os(macOS)
     import Cocoa
-    public typealias RSKLineBreakMode = ParagraphStyle.LineBreakMode
+    public typealias RSKLineBreakMode = NSParagraphStyle.LineBreakMode
     public typealias RSKColor = NSColor
 #else
     import UIKit
