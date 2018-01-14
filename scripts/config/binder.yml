@@ -1,0 +1,7 @@
+SKNode:
+  position: CGPoint
+  alpha: CGFloat
+  xScale: CGFloat
+  yScale: CGFloat
+  isHidden: Bool
+

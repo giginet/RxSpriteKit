@@ -1,0 +1,14 @@
+import Foundation
+import SpriteKit
+import RxSwift
+import RxCocoa
+
+extension Reactive where Base: <%= class_name %> {
+  <% properties.each do |property| %>
+    public var <%= property.name %>: Binder<<%= property.type %>>{
+        return Binder(self.base) { view, <%= property.name %> in
+            view.<%= property.name %> = <%= property.name %>
+        }
+    }
+  <% end %>
+}
