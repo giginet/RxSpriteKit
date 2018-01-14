@@ -1,7 +1,34 @@
 SKNode:
   position: CGPoint
+  zPosition: CGFloat
+  speed: CGFloat
+  isPaused: Bool
+  zRotation: CGFloat
   alpha: CGFloat
   xScale: CGFloat
   yScale: CGFloat
   isHidden: Bool
-
+SKSpriteNode:
+  anchorPoint: CGPoint
+  texture: SKTexture?
+  centerRect: CGRect
+  colorBlendFactor: CGFloat
+  blendMode: SKBlendMode
+  lightingBitMask: UInt32
+  shadowedBitMask: UInt32
+  normalTexture: SKTexture?
+  shader: SKShader?
+SKLabelNode:
+  text: String?
+  fontColor: RSKColor?
+  fontName: String?
+  fontSize: CGFloat
+  verticalAlignmentMode: SKLabelVerticalAlignmentMode
+  horizontalAlignmentMode: SKLabelHorizontalAlignmentMode
+  color: RSKColor?
+  colorBlendFactor: CGFloat
+  blendMode: SKBlendMode
+  attributedText: NSAttributedString?
+  lineBreakMode: NSParagraphStyle.LineBreakMode
+  numberOfLines: Int
+  preferredMaxLayoutWidth: CGFloat

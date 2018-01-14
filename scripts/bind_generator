@@ -5,7 +5,7 @@ require 'erb'
 BASE_DIR = File.absolute_path(File.join(File.dirname(__FILE__), "../"))
 CONFIG_PATH = File.join(BASE_DIR, "scripts", "config", "binder.yml")
 TEMPLATE_PATH = File.join(BASE_DIR, "scripts", "templates", "Binder.swift.erb")
-OUTPUT_DIR_PATH = File.join(BASE_DIR, "RxSpriteKit")
+OUTPUT_DIR_PATH = File.join(BASE_DIR, "RxSpriteKit", "Binders")
 
 config = YAML.load_file(CONFIG_PATH)
 
@@ -27,6 +27,6 @@ classes.each do |swift_class|
   properties = swift_class.properties
   source_code = ERB.new(File.read(TEMPLATE_PATH)).result(binding)
   file_name = "#{class_name}+Rx.swift"
-  File.open(File.join(OUTPUT_DIR_PATH, file_name), "r+").write(source_code)
+  File.open(File.join(OUTPUT_DIR_PATH, file_name), "w+").write(source_code)
   puts "#{file_name} is saved."
 end

@@ -22,10 +22,8 @@
 		070D18E9200A40B5001CFC8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D18CB200A40B5001CFC8D /* AppDelegate.swift */; };
 		070D18ED200A40B5001CFC8D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 070D18CD200A40B5001CFC8D /* Info.plist */; };
 		070D18EF200A40B5001CFC8D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 070D18CE200A40B5001CFC8D /* Actions.sks */; };
-		074A715E200A43220087739C /* SKNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A715D200A43220087739C /* SKNode+Rx.swift */; };
 		074A7162200A433E0087739C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7160200A433E0087739C /* RxCocoa.framework */; };
 		074A7163200A433E0087739C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7161200A433E0087739C /* RxSwift.framework */; };
-		074A7165200A44260087739C /* SKNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A715D200A43220087739C /* SKNode+Rx.swift */; };
 		074A7168200A449F0087739C /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA3C2006407E001A1FE1 /* RxSpriteKit.framework */; };
 		074A716B200A44C30087739C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7169200A44C30087739C /* RxCocoa.framework */; };
 		074A716C200A44C30087739C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A716A200A44C30087739C /* RxSwift.framework */; };
@@ -42,6 +40,14 @@
 		0779CA9B20065533001A1FE1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0779CA9A20065533001A1FE1 /* Info.plist */; };
 		0779CA9C20065533001A1FE1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0779CA9A20065533001A1FE1 /* Info.plist */; };
 		0796F86C200B5568004CFBE5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F86A200B53E1004CFBE5 /* GameScene.swift */; };
+		0796F878200B6048004CFBE5 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F877200B6048004CFBE5 /* Aliases.swift */; };
+		0796F879200B6048004CFBE5 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F877200B6048004CFBE5 /* Aliases.swift */; };
+		0796F87E200B61D5004CFBE5 /* SKLabelNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F87B200B61D5004CFBE5 /* SKLabelNode+Rx.swift */; };
+		0796F87F200B61D5004CFBE5 /* SKLabelNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F87B200B61D5004CFBE5 /* SKLabelNode+Rx.swift */; };
+		0796F880200B61D5004CFBE5 /* SKNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F87C200B61D5004CFBE5 /* SKNode+Rx.swift */; };
+		0796F881200B61D5004CFBE5 /* SKNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F87C200B61D5004CFBE5 /* SKNode+Rx.swift */; };
+		0796F882200B61D5004CFBE5 /* SKSpriteNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F87D200B61D5004CFBE5 /* SKSpriteNode+Rx.swift */; };
+		0796F883200B61D5004CFBE5 /* SKSpriteNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F87D200B61D5004CFBE5 /* SKSpriteNode+Rx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +118,6 @@
 		070D18CB200A40B5001CFC8D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		070D18CD200A40B5001CFC8D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		070D18CE200A40B5001CFC8D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		074A715D200A43220087739C /* SKNode+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+Rx.swift"; sourceTree = "<group>"; };
 		074A7160200A433E0087739C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		074A7161200A433E0087739C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		074A7169200A44C30087739C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
@@ -125,6 +130,10 @@
 		0779CA6E2006542D001A1FE1 /* RxSpriteKitTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSpriteKitTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0779CA9A20065533001A1FE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0796F86A200B53E1004CFBE5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0796F877200B6048004CFBE5 /* Aliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
+		0796F87B200B61D5004CFBE5 /* SKLabelNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabelNode+Rx.swift"; sourceTree = "<group>"; };
+		0796F87C200B61D5004CFBE5 /* SKNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Rx.swift"; sourceTree = "<group>"; };
+		0796F87D200B61D5004CFBE5 /* SKSpriteNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+Rx.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,8 +290,9 @@
 		074F6763200655CB003F3D9B /* RxSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				0796F87A200B61BF004CFBE5 /* Binders */,
+				0796F876200B6030004CFBE5 /* Utilities */,
 				074F6764200655CB003F3D9B /* Info.plist */,
-				074A715D200A43220087739C /* SKNode+Rx.swift */,
 			);
 			path = RxSpriteKit;
 			sourceTree = "<group>";
@@ -326,6 +336,24 @@
 				0779CA9A20065533001A1FE1 /* Info.plist */,
 			);
 			path = RxSpriteKit;
+			sourceTree = "<group>";
+		};
+		0796F876200B6030004CFBE5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0796F877200B6048004CFBE5 /* Aliases.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0796F87A200B61BF004CFBE5 /* Binders */ = {
+			isa = PBXGroup;
+			children = (
+				0796F87B200B61D5004CFBE5 /* SKLabelNode+Rx.swift */,
+				0796F87C200B61D5004CFBE5 /* SKNode+Rx.swift */,
+				0796F87D200B61D5004CFBE5 /* SKSpriteNode+Rx.swift */,
+			);
+			path = Binders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -485,6 +513,7 @@
 					};
 					0779CA4D20064098001A1FE1 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					0779CA5E200640B8001A1FE1 = {
@@ -680,7 +709,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074A715E200A43220087739C /* SKNode+Rx.swift in Sources */,
+				0796F882200B61D5004CFBE5 /* SKSpriteNode+Rx.swift in Sources */,
+				0796F87E200B61D5004CFBE5 /* SKLabelNode+Rx.swift in Sources */,
+				0796F878200B6048004CFBE5 /* Aliases.swift in Sources */,
+				0796F880200B61D5004CFBE5 /* SKNode+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,7 +720,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074A7165200A44260087739C /* SKNode+Rx.swift in Sources */,
+				0796F883200B61D5004CFBE5 /* SKSpriteNode+Rx.swift in Sources */,
+				0796F87F200B61D5004CFBE5 /* SKLabelNode+Rx.swift in Sources */,
+				0796F879200B6048004CFBE5 /* Aliases.swift in Sources */,
+				0796F881200B61D5004CFBE5 /* SKNode+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1030,6 +1065,7 @@
 		0779CA5820064098001A1FE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1051,6 +1087,7 @@
 				PRODUCT_NAME = RxSpriteKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1060,6 +1097,7 @@
 		0779CA5920064098001A1FE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
