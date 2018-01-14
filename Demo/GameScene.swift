@@ -7,7 +7,7 @@ import RxCocoa
 class GameScene: SKScene {
     private let disposeBag = DisposeBag()
     private var label: SKLabelNode!
-    private var positionRelay: PublishRelay = PublishRelay<CGPoint>()
+    private let frameRelay = PublishRelay<Int>()
 
     override func sceneDidLoad() {
         super.sceneDidLoad()
@@ -16,14 +16,20 @@ class GameScene: SKScene {
             fatalError()
         }
         self.label = label
-        self.rx.update
-            .scan(CGPoint.zero, accumulator: { currentPosition, _ in CGPoint(x: 0, y: currentPosition.y + 1) })
-            .bind(to: positionRelay)
+        rx.update
+            .scan(0, accumulator: { frameCount, _ in frameCount + 1 })
+            .bind(to: frameRelay)
             .disposed(by: disposeBag)
-        positionRelay.bind(to: label.rx.position.asObserver()).disposed(by: disposeBag)
-        positionRelay
-            .asObservable()
-            .map { String(describing: $0.y) }
+        frameRelay
+            .map { CGFloat($0) * 0.01 }
+            .bind(to: label.rx.zRotation.asObserver())
+            .disposed(by: disposeBag)
+        frameRelay
+            .map { CGPoint(x: 0, y: $0) }
+            .bind(to: label.rx.position.asObserver())
+            .disposed(by: disposeBag)
+        frameRelay
+            .map { String(describing: $0) }
             .bind(to: label.rx.text.asObserver())
             .disposed(by: disposeBag)
     }
