@@ -1,0 +1,6 @@
+included:
+  - RxSpriteKit
+  - Tests/RxSpriteKit
+  - Demo
+disabled_rules:
+  - line_length

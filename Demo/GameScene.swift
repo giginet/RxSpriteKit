@@ -14,12 +14,12 @@ import RxCocoa
 
 class GameScene: SKScene {
     private let disposeBag = DisposeBag()
-    private var label : SKLabelNode!
+    private var label: SKLabelNode!
     private let positionRelay: PublishRelay = PublishRelay<CGPoint>()
-    
+
     override func sceneDidLoad() {
         super.sceneDidLoad()
-        
+
         guard let label = childNode(withName: "//helloLabel") as? SKLabelNode else {
             fatalError()
         }
