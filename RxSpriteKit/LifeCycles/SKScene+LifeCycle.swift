@@ -4,6 +4,11 @@ import RxSwift
 import RxCocoa
 
 extension Reactive where Base: SKScene {
+    public var didChangeSize: ControlEvent<CGSize> {
+        let source = self.methodInvoked(#selector(Base.didChangeSize)).map { $0.first as? CGSize ?? CGSize.zero }
+        return ControlEvent(events: source)
+    }
+
     public var sceneDidLoad: ControlEvent<Void> {
         let source = self.methodInvoked(#selector(Base.sceneDidLoad)).map { _ in }
         return ControlEvent(events: source)
