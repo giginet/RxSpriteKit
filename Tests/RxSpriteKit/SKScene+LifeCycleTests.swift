@@ -3,7 +3,6 @@ import SpriteKit
 import RxSpriteKit
 import RxSwift
 import RxCocoa
-import RxBlocking
 import RxTest
 import XCTest
 

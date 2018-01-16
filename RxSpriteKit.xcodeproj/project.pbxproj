@@ -34,8 +34,6 @@
 		077183C0200E48A7000C2E8E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7161200A433E0087739C /* RxSwift.framework */; };
 		077183C1200E48B3000C2E8E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7169200A44C30087739C /* RxCocoa.framework */; };
 		077183C2200E48B3000C2E8E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A716A200A44C30087739C /* RxSwift.framework */; };
-		077183C6200E4AB5000C2E8E /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077183C5200E4AB5000C2E8E /* RxBlocking.framework */; };
-		077183C7200E4ABE000C2E8E /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077183C3200E4AAA000C2E8E /* RxBlocking.framework */; };
 		077183CC200E4F13000C2E8E /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077183C9200E4C85000C2E8E /* RxTest.framework */; };
 		077183CE200E4F21000C2E8E /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077183CD200E4F21000C2E8E /* RxTest.framework */; };
 		0779CA64200640B8001A1FE1 /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA3C2006407E001A1FE1 /* RxSpriteKit.framework */; };
@@ -178,7 +176,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				077183CC200E4F13000C2E8E /* RxTest.framework in Frameworks */,
-				077183C7200E4ABE000C2E8E /* RxBlocking.framework in Frameworks */,
 				077183BF200E48A7000C2E8E /* RxCocoa.framework in Frameworks */,
 				077183C0200E48A7000C2E8E /* RxSwift.framework in Frameworks */,
 				0779CA64200640B8001A1FE1 /* RxSpriteKit.framework in Frameworks */,
@@ -190,7 +187,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				077183CE200E4F21000C2E8E /* RxTest.framework in Frameworks */,
-				077183C6200E4AB5000C2E8E /* RxBlocking.framework in Frameworks */,
 				077183C1200E48B3000C2E8E /* RxCocoa.framework in Frameworks */,
 				077183C2200E48B3000C2E8E /* RxSwift.framework in Frameworks */,
 				0779CA732006542E001A1FE1 /* RxSpriteKit.framework in Frameworks */,
@@ -666,14 +662,12 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
 			);
 			name = Carthage;
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,14 +682,12 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/Mac/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/Mac/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/RxBlocking.framework",
 				"$(SRCROOT)/Carthage/Build/Mac/RxTest.framework",
 			);
 			name = Carthage;
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
