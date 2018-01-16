@@ -13,4 +13,5 @@ matrix:
     - env: PLATFORM=macOS DESTINATION='platform=macOS,arch=x86_64'
     - env: PLATFORM=iOS DESTINATION='platform=iOS Simulator,name=iPhone 6'
 script:
+  - xcodebuild test -project RxSpriteKit.xcodeproj -scheme RxSpriteKitTests-$PLATFORM -destination "${DESTINATION}"
   - xcodebuild -project RxSpriteKit.xcodeproj -scheme RxSpriteKitDemo-$PLATFORM -destination "${DESTINATION}"
