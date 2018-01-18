@@ -8,16 +8,98 @@ import XCTest
 
 class SKScene_LifeCycleTests: XCTestCase {
     let disposeBag = DisposeBag()
+    let scene = SKScene()
+    let scheduler = TestScheduler(initialClock: 0)
+
+    func testDidChangeSize() {
+        let observer = scheduler.createObserver(CGSize.self)
+        scene.rx.didChangeSize.bind(to: observer).disposed(by: disposeBag)
+        scheduler.scheduleAt(100) {
+            self.scene.didChangeSize(CGSize.zero)
+        }
+        scheduler.start()
+        XCTAssertEqual(observer.events, [next(100, CGSize.zero)])
+    }
 
     func testUpdate() {
-        let scene = SKScene()
-        let scheduler = TestScheduler(initialClock: 0)
         let observer = scheduler.createObserver(Double.self)
         scene.rx.update.bind(to: observer).disposed(by: disposeBag)
         scheduler.scheduleAt(100) {
-            scene.update(0.1)
+            self.scene.update(0.1)
         }
         scheduler.start()
         XCTAssertEqual(observer.events, [next(100, 0.1)])
+    }
+
+    func testSceneDidLoad() {
+        let observer = scheduler.createObserver(Void.self)
+        scene.rx.sceneDidLoad.bind(to: observer).disposed(by: disposeBag)
+        scheduler.scheduleAt(100) {
+            self.scene.sceneDidLoad()
+        }
+        scheduler.start()
+        XCTAssertEqual(observer.events.count, 1)
+    }
+
+    func testWillMove() {
+        let view = SKView()
+        let observer = scheduler.createObserver(SKView.self)
+        scene.rx.willMove.bind(to: observer).disposed(by: disposeBag)
+        scheduler.scheduleAt(100) {
+            self.scene.willMove(from: view)
+        }
+        scheduler.start()
+        XCTAssertEqual(observer.events, [next(100, view)])
+    }
+
+    func testDidMove() {
+        let view = SKView()
+        let observer = scheduler.createObserver(SKView.self)
+        scene.rx.didMove.bind(to: observer).disposed(by: disposeBag)
+        scheduler.scheduleAt(100) {
+            self.scene.didMove(to: view)
+        }
+        scheduler.start()
+        XCTAssertEqual(observer.events, [next(100, view)])
+    }
+
+    func testDidEvaluateActions() {
+        let observer = scheduler.createObserver(Void.self)
+        scene.rx.didEvaluateActions.bind(to: observer).disposed(by: disposeBag)
+        scheduler.scheduleAt(100) {
+            self.scene.didEvaluateActions()
+        }
+        scheduler.start()
+        XCTAssertEqual(observer.events.count, 1)
+    }
+
+    func testDidSimulatePhysics() {
+        let observer = scheduler.createObserver(Void.self)
+        scene.rx.didSimulatePhysics.bind(to: observer).disposed(by: disposeBag)
+        scheduler.scheduleAt(100) {
+            self.scene.didSimulatePhysics()
+        }
+        scheduler.start()
+        XCTAssertEqual(observer.events.count, 1)
+    }
+
+    func testDidApplyConstraints() {
+        let observer = scheduler.createObserver(Void.self)
+        scene.rx.didApplyConstraints.bind(to: observer).disposed(by: disposeBag)
+        scheduler.scheduleAt(100) {
+            self.scene.didApplyConstraints()
+        }
+        scheduler.start()
+        XCTAssertEqual(observer.events.count, 1)
+    }
+
+    func testDidFinishUpdate() {
+        let observer = scheduler.createObserver(Void.self)
+        scene.rx.didFinishUpdate.bind(to: observer).disposed(by: disposeBag)
+        scheduler.scheduleAt(100) {
+            self.scene.didFinishUpdate()
+        }
+        scheduler.start()
+        XCTAssertEqual(observer.events.count, 1)
     }
 }
