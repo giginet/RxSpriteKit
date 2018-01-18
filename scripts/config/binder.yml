@@ -18,6 +18,24 @@ SKSpriteNode:
   shadowedBitMask: UInt32
   normalTexture: SKTexture?
   shader: SKShader?
+SKCropNode:
+  maskNode: SKNode?
+SKAudioNode:
+  avAudioNode: AVAudioNode?
+  isPositional: Bool
+  autoplayLooped: Bool
+SKFieldNode:
+  isEnabled: Bool
+  isExclusive: Bool
+  region: SKRegion?
+  minimumRadius: Float
+  categoryBitMask: UInt32
+  strength: Float
+  falloff: Float
+  animationSpeed: Float
+  smoothness: Float
+  direction: vector_float3
+  texture: SKTexture?
 SKLabelNode:
   text: String?
   fontColor: RSKColor?
@@ -32,6 +50,109 @@ SKLabelNode:
   lineBreakMode: RSKLineBreakMode
   numberOfLines: Int
   preferredMaxLayoutWidth: CGFloat
+SKLightNode:
+  isEnabled: Bool
+  categoryBitMask: UInt32
+  ambientColor: RSKColor
+  lightColor: RSKColor
+  shadowColor: RSKColor
+  falloff: CGFloat
+SKShapeNode:
+  path: CGPath?
+  fillColor: RSKColor
+  fillTexture: SKTexture?
+  fillShader: SKShader?
+  lineWidth: CGFloat
+  glowWidth: CGFloat
+  isAntialiased: Bool
+  strokeColor: RSKColor
+  strokeTexture: SKTexture?
+  strokeShader: SKShader?
+  lineCap: CGLineCap
+  lineJoin: CGLineJoin
+  miterLimit: CGFloat
+  blendMode: SKBlendMode
+SKVideoNode:
+  anchorPoint: CGPoint
+  size: CGSize
+SKEffectNode:
+  shouldEnableEffects: Bool
+  filter: CIFilter?
+  shouldCenterFilter: Bool
+  blendMode: SKBlendMode
+  shader: SKShader?
+  attributeValues: "[String: SKAttributeValue]"
+  shouldRasterize: Bool
+SKEmitterNode:
+  particleBirthRate: CGFloat
+  numParticlesToEmit: Int
+  particleRenderOrder: SKParticleRenderOrder
+  targetNode: SKNode?
+  particleLifetime: CGFloat
+  particleLifetimeRange: CGFloat
+  particlePosition: CGPoint
+  particlePositionRange: CGVector
+  particleZPosition: CGFloat
+  particleSpeed: CGFloat
+  particleSpeedRange: CGFloat
+  emissionAngle: CGFloat
+  emissionAngleRange: CGFloat
+  xAcceleration: CGFloat
+  yAcceleration: CGFloat
+  particleRotation: CGFloat
+  particleRotationRange: CGFloat
+  particleRotationSpeed: CGFloat
+  particleScaleSequence: SKKeyframeSequence?
+  particleScale: CGFloat
+  particleScaleRange: CGFloat
+  particleScaleSpeed: CGFloat
+  particleTexture: SKTexture?
+  particleSize: CGSize
+  particleColorSequence: SKKeyframeSequence?
+  particleColor: RSKColor
+  particleColorAlphaRange: CGFloat
+  particleColorBlueRange: CGFloat
+  particleColorGreenRange: CGFloat
+  particleColorRedRange: CGFloat
+  particleColorAlphaSpeed: CGFloat
+  particleColorBlueSpeed: CGFloat
+  particleColorGreenSpeed: CGFloat
+  particleColorRedSpeed: CGFloat
+  particleColorBlendFactorSequence: SKKeyframeSequence?
+  particleColorBlendFactor: CGFloat
+  particleColorBlendFactorRange: CGFloat
+  particleColorBlendFactorSpeed: CGFloat
+  particleBlendMode: SKBlendMode
+  particleAlphaSequence: SKKeyframeSequence?
+  particleAlpha: CGFloat
+  particleAlphaRange: CGFloat
+  particleAlphaSpeed: CGFloat
+  particleAction: SKAction?
+  fieldBitMask: UInt32
+  shader: SKShader?
+  attributeValues: "[String: SKAttributeValue]"
+SKTileMapNode:
+  anchorPoint: CGPoint
+  blendMode: SKBlendMode
+  color: RSKColor
+  colorBlendFactor: CGFloat
+  enableAutomapping: Bool
+  lightingBitMask: UInt32
+  numberOfColumns: Int
+  numberOfRows: Int
+  tileSet: SKTileSet
+  tileSize: CGSize
+SKTransformNode:
+  xRotation: CGFloat
+  yRotation: CGFloat
+SK3DNode:
+  viewportSize: CGSize
+  scnScene: SCNScene?
+  pointOfView: SCNNode?
+  autoenablesDefaultLighting: Bool
+  isPlaying: Bool
+  loops: Bool
+  sceneTime: TimeInterval
 SKScene:
   camera: SKCameraNode?
   anchorPoint: CGPoint
