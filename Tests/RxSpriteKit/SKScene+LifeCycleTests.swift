@@ -41,28 +41,6 @@ class SKScene_LifeCycleTests: XCTestCase {
         XCTAssertEqual(observer.events.count, 1)
     }
 
-    func testWillMove() {
-        let view = SKView()
-        let observer = scheduler.createObserver(SKView.self)
-        scene.rx.willMove.bind(to: observer).disposed(by: disposeBag)
-        scheduler.scheduleAt(100) {
-            self.scene.willMove(from: view)
-        }
-        scheduler.start()
-        XCTAssertEqual(observer.events, [next(100, view)])
-    }
-
-    func testDidMove() {
-        let view = SKView()
-        let observer = scheduler.createObserver(SKView.self)
-        scene.rx.didMove.bind(to: observer).disposed(by: disposeBag)
-        scheduler.scheduleAt(100) {
-            self.scene.didMove(to: view)
-        }
-        scheduler.start()
-        XCTAssertEqual(observer.events, [next(100, view)])
-    }
-
     func testDidEvaluateActions() {
         let observer = scheduler.createObserver(Void.self)
         scene.rx.didEvaluateActions.bind(to: observer).disposed(by: disposeBag)
