@@ -18,6 +18,7 @@
 		070D18E5200A40B5001CFC8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070D18C8200A40B5001CFC8D /* Main.storyboard */; };
 		070D18E7200A40B5001CFC8D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 070D18CA200A40B5001CFC8D /* GameScene.sks */; };
 		070D18E9200A40B5001CFC8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D18CB200A40B5001CFC8D /* AppDelegate.swift */; };
+		0735199B201372EF008411E3 /* NSResponder+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0735199A201372EF008411E3 /* NSResponder+Rx.swift */; };
 		074A7162200A433E0087739C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7160200A433E0087739C /* RxCocoa.framework */; };
 		074A7163200A433E0087739C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7161200A433E0087739C /* RxSwift.framework */; };
 		074A7168200A449F0087739C /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA3C2006407E001A1FE1 /* RxSpriteKit.framework */; };
@@ -128,6 +129,7 @@
 		070D18CA200A40B5001CFC8D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		070D18CB200A40B5001CFC8D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		070D18CD200A40B5001CFC8D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0735199A201372EF008411E3 /* NSResponder+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSResponder+Rx.swift"; sourceTree = "<group>"; };
 		074A7160200A433E0087739C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		074A7161200A433E0087739C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		074A7169200A44C30087739C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
@@ -268,6 +270,14 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
+		0735199C201372F7008411E3 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0735199A201372EF008411E3 /* NSResponder+Rx.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
 		074A715F200A433D0087739C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +300,7 @@
 				0796F88A200B7A7D004CFBE5 /* LifeCycles */,
 				0796F876200B6030004CFBE5 /* Utilities */,
 				074F6764200655CB003F3D9B /* Info.plist */,
+				0735199C201372F7008411E3 /* macOS */,
 			);
 			path = RxSpriteKit;
 			sourceTree = "<group>";
@@ -808,6 +819,7 @@
 				07B0B0422010FF7100467BA9 /* SKScene+Binder.swift in Sources */,
 				0796F879200B6048004CFBE5 /* Aliases.swift in Sources */,
 				07B0B05C2010FF7100467BA9 /* SKVideoNode+Binder.swift in Sources */,
+				0735199B201372EF008411E3 /* NSResponder+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
