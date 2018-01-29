@@ -48,38 +48,52 @@
 		0796F889200B70C8004CFBE5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0796F885200B70C8004CFBE5 /* Actions.sks */; };
 		0796F88E200B7B87004CFBE5 /* SKScene+LifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F88B200B7AB4004CFBE5 /* SKScene+LifeCycle.swift */; };
 		0796F88F200B7B87004CFBE5 /* SKScene+LifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F88B200B7AB4004CFBE5 /* SKScene+LifeCycle.swift */; };
-		07B0B03D2010FF7100467BA9 /* SKNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B02D2010FF7000467BA9 /* SKNode+Binder.swift */; };
-		07B0B03E2010FF7100467BA9 /* SKNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B02D2010FF7000467BA9 /* SKNode+Binder.swift */; };
-		07B0B03F2010FF7100467BA9 /* SKAudioNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B02E2010FF7000467BA9 /* SKAudioNode+Binder.swift */; };
-		07B0B0402010FF7100467BA9 /* SKAudioNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B02E2010FF7000467BA9 /* SKAudioNode+Binder.swift */; };
-		07B0B0412010FF7100467BA9 /* SKScene+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B02F2010FF7000467BA9 /* SKScene+Binder.swift */; };
-		07B0B0422010FF7100467BA9 /* SKScene+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B02F2010FF7000467BA9 /* SKScene+Binder.swift */; };
-		07B0B0432010FF7100467BA9 /* SKShapeNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0302010FF7000467BA9 /* SKShapeNode+Binder.swift */; };
-		07B0B0442010FF7100467BA9 /* SKShapeNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0302010FF7000467BA9 /* SKShapeNode+Binder.swift */; };
-		07B0B0452010FF7100467BA9 /* SKFieldNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0312010FF7000467BA9 /* SKFieldNode+Binder.swift */; };
-		07B0B0462010FF7100467BA9 /* SKFieldNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0312010FF7000467BA9 /* SKFieldNode+Binder.swift */; };
-		07B0B0472010FF7100467BA9 /* SK3DNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0322010FF7000467BA9 /* SK3DNode+Binder.swift */; };
-		07B0B0482010FF7100467BA9 /* SK3DNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0322010FF7000467BA9 /* SK3DNode+Binder.swift */; };
-		07B0B0492010FF7100467BA9 /* SKLabelNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0332010FF7000467BA9 /* SKLabelNode+Binder.swift */; };
-		07B0B04A2010FF7100467BA9 /* SKLabelNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0332010FF7000467BA9 /* SKLabelNode+Binder.swift */; };
-		07B0B04B2010FF7100467BA9 /* SKEmitterNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0342010FF7000467BA9 /* SKEmitterNode+Binder.swift */; };
-		07B0B04C2010FF7100467BA9 /* SKEmitterNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0342010FF7000467BA9 /* SKEmitterNode+Binder.swift */; };
-		07B0B04D2010FF7100467BA9 /* SKView+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0352010FF7100467BA9 /* SKView+Binder.swift */; };
-		07B0B04E2010FF7100467BA9 /* SKView+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0352010FF7100467BA9 /* SKView+Binder.swift */; };
-		07B0B04F2010FF7100467BA9 /* SKCropNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0362010FF7100467BA9 /* SKCropNode+Binder.swift */; };
-		07B0B0502010FF7100467BA9 /* SKCropNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0362010FF7100467BA9 /* SKCropNode+Binder.swift */; };
-		07B0B0512010FF7100467BA9 /* SKTileMapNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0372010FF7100467BA9 /* SKTileMapNode+Binder.swift */; };
-		07B0B0522010FF7100467BA9 /* SKTileMapNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0372010FF7100467BA9 /* SKTileMapNode+Binder.swift */; };
-		07B0B0532010FF7100467BA9 /* SKSpriteNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0382010FF7100467BA9 /* SKSpriteNode+Binder.swift */; };
-		07B0B0542010FF7100467BA9 /* SKSpriteNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0382010FF7100467BA9 /* SKSpriteNode+Binder.swift */; };
-		07B0B0552010FF7100467BA9 /* SKTransformNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0392010FF7100467BA9 /* SKTransformNode+Binder.swift */; };
-		07B0B0562010FF7100467BA9 /* SKTransformNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B0392010FF7100467BA9 /* SKTransformNode+Binder.swift */; };
-		07B0B0572010FF7100467BA9 /* SKEffectNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B03A2010FF7100467BA9 /* SKEffectNode+Binder.swift */; };
-		07B0B0582010FF7100467BA9 /* SKEffectNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B03A2010FF7100467BA9 /* SKEffectNode+Binder.swift */; };
-		07B0B0592010FF7100467BA9 /* SKLightNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B03B2010FF7100467BA9 /* SKLightNode+Binder.swift */; };
-		07B0B05A2010FF7100467BA9 /* SKLightNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B03B2010FF7100467BA9 /* SKLightNode+Binder.swift */; };
-		07B0B05B2010FF7100467BA9 /* SKVideoNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B03C2010FF7100467BA9 /* SKVideoNode+Binder.swift */; };
-		07B0B05C2010FF7100467BA9 /* SKVideoNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0B03C2010FF7100467BA9 /* SKVideoNode+Binder.swift */; };
+		07F09A90201F441800847DBB /* SKPhysicsJointSpring+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A78201F441800847DBB /* SKPhysicsJointSpring+Binder.swift */; };
+		07F09A91201F441800847DBB /* SKPhysicsJointSpring+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A78201F441800847DBB /* SKPhysicsJointSpring+Binder.swift */; };
+		07F09A94201F441800847DBB /* SKShapeNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7A201F441800847DBB /* SKShapeNode+Binder.swift */; };
+		07F09A95201F441800847DBB /* SKShapeNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7A201F441800847DBB /* SKShapeNode+Binder.swift */; };
+		07F09A96201F441800847DBB /* SKPhysicsJointPin+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7B201F441800847DBB /* SKPhysicsJointPin+Binder.swift */; };
+		07F09A97201F441800847DBB /* SKPhysicsJointPin+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7B201F441800847DBB /* SKPhysicsJointPin+Binder.swift */; };
+		07F09A98201F441800847DBB /* SKLightNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7C201F441800847DBB /* SKLightNode+Binder.swift */; };
+		07F09A99201F441800847DBB /* SKLightNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7C201F441800847DBB /* SKLightNode+Binder.swift */; };
+		07F09A9A201F441800847DBB /* SKPhysicsJointSliding+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7D201F441800847DBB /* SKPhysicsJointSliding+Binder.swift */; };
+		07F09A9B201F441800847DBB /* SKPhysicsJointSliding+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7D201F441800847DBB /* SKPhysicsJointSliding+Binder.swift */; };
+		07F09A9C201F441800847DBB /* SKLabelNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7E201F441800847DBB /* SKLabelNode+Binder.swift */; };
+		07F09A9D201F441800847DBB /* SKLabelNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7E201F441800847DBB /* SKLabelNode+Binder.swift */; };
+		07F09A9E201F441800847DBB /* SKPhysicsBody+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7F201F441800847DBB /* SKPhysicsBody+Binder.swift */; };
+		07F09A9F201F441800847DBB /* SKPhysicsBody+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7F201F441800847DBB /* SKPhysicsBody+Binder.swift */; };
+		07F09AA0201F441800847DBB /* SKPhysicsJointLimit+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A80201F441800847DBB /* SKPhysicsJointLimit+Binder.swift */; };
+		07F09AA1201F441800847DBB /* SKPhysicsJointLimit+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A80201F441800847DBB /* SKPhysicsJointLimit+Binder.swift */; };
+		07F09AA2201F441800847DBB /* SKFieldNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A81201F441800847DBB /* SKFieldNode+Binder.swift */; };
+		07F09AA3201F441800847DBB /* SKFieldNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A81201F441800847DBB /* SKFieldNode+Binder.swift */; };
+		07F09AA4201F441800847DBB /* SKNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A82201F441800847DBB /* SKNode+Binder.swift */; };
+		07F09AA5201F441800847DBB /* SKNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A82201F441800847DBB /* SKNode+Binder.swift */; };
+		07F09AA6201F441800847DBB /* SKAudioNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A83201F441800847DBB /* SKAudioNode+Binder.swift */; };
+		07F09AA7201F441800847DBB /* SKAudioNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A83201F441800847DBB /* SKAudioNode+Binder.swift */; };
+		07F09AA8201F441800847DBB /* SKCropNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A84201F441800847DBB /* SKCropNode+Binder.swift */; };
+		07F09AA9201F441800847DBB /* SKCropNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A84201F441800847DBB /* SKCropNode+Binder.swift */; };
+		07F09AAA201F441800847DBB /* SKView+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A85201F441800847DBB /* SKView+Binder.swift */; };
+		07F09AAB201F441800847DBB /* SKView+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A85201F441800847DBB /* SKView+Binder.swift */; };
+		07F09AAC201F441800847DBB /* SKPhysicsWorld+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A86201F441800847DBB /* SKPhysicsWorld+Binder.swift */; };
+		07F09AAD201F441800847DBB /* SKPhysicsWorld+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A86201F441800847DBB /* SKPhysicsWorld+Binder.swift */; };
+		07F09AAE201F441800847DBB /* SKScene+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A87201F441800847DBB /* SKScene+Binder.swift */; };
+		07F09AAF201F441800847DBB /* SKScene+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A87201F441800847DBB /* SKScene+Binder.swift */; };
+		07F09AB0201F441800847DBB /* SKSpriteNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A88201F441800847DBB /* SKSpriteNode+Binder.swift */; };
+		07F09AB1201F441800847DBB /* SKSpriteNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A88201F441800847DBB /* SKSpriteNode+Binder.swift */; };
+		07F09AB2201F441800847DBB /* SKTileMapNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A89201F441800847DBB /* SKTileMapNode+Binder.swift */; };
+		07F09AB3201F441800847DBB /* SKTileMapNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A89201F441800847DBB /* SKTileMapNode+Binder.swift */; };
+		07F09AB4201F441800847DBB /* SKPhysicsJoint+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8A201F441800847DBB /* SKPhysicsJoint+Binder.swift */; };
+		07F09AB5201F441800847DBB /* SKPhysicsJoint+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8A201F441800847DBB /* SKPhysicsJoint+Binder.swift */; };
+		07F09AB6201F441800847DBB /* SK3DNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8B201F441800847DBB /* SK3DNode+Binder.swift */; };
+		07F09AB7201F441800847DBB /* SK3DNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8B201F441800847DBB /* SK3DNode+Binder.swift */; };
+		07F09AB8201F441800847DBB /* SKVideoNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8C201F441800847DBB /* SKVideoNode+Binder.swift */; };
+		07F09AB9201F441800847DBB /* SKVideoNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8C201F441800847DBB /* SKVideoNode+Binder.swift */; };
+		07F09ABA201F441800847DBB /* SKTransformNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8D201F441800847DBB /* SKTransformNode+Binder.swift */; };
+		07F09ABB201F441800847DBB /* SKTransformNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8D201F441800847DBB /* SKTransformNode+Binder.swift */; };
+		07F09ABC201F441800847DBB /* SKEffectNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8E201F441800847DBB /* SKEffectNode+Binder.swift */; };
+		07F09ABD201F441800847DBB /* SKEffectNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8E201F441800847DBB /* SKEffectNode+Binder.swift */; };
+		07F09ABE201F441800847DBB /* SKEmitterNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8F201F441800847DBB /* SKEmitterNode+Binder.swift */; };
+		07F09ABF201F441800847DBB /* SKEmitterNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8F201F441800847DBB /* SKEmitterNode+Binder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,22 +165,29 @@
 		0796F884200B70C8004CFBE5 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		0796F885200B70C8004CFBE5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		0796F88B200B7AB4004CFBE5 /* SKScene+LifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKScene+LifeCycle.swift"; sourceTree = "<group>"; };
-		07B0B02D2010FF7000467BA9 /* SKNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B02E2010FF7000467BA9 /* SKAudioNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAudioNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B02F2010FF7000467BA9 /* SKScene+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKScene+Binder.swift"; sourceTree = "<group>"; };
-		07B0B0302010FF7000467BA9 /* SKShapeNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKShapeNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B0312010FF7000467BA9 /* SKFieldNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKFieldNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B0322010FF7000467BA9 /* SK3DNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SK3DNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B0332010FF7000467BA9 /* SKLabelNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabelNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B0342010FF7000467BA9 /* SKEmitterNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKEmitterNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B0352010FF7100467BA9 /* SKView+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKView+Binder.swift"; sourceTree = "<group>"; };
-		07B0B0362010FF7100467BA9 /* SKCropNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKCropNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B0372010FF7100467BA9 /* SKTileMapNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKTileMapNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B0382010FF7100467BA9 /* SKSpriteNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B0392010FF7100467BA9 /* SKTransformNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKTransformNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B03A2010FF7100467BA9 /* SKEffectNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKEffectNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B03B2010FF7100467BA9 /* SKLightNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLightNode+Binder.swift"; sourceTree = "<group>"; };
-		07B0B03C2010FF7100467BA9 /* SKVideoNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKVideoNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A78201F441800847DBB /* SKPhysicsJointSpring+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsJointSpring+Binder.swift"; sourceTree = "<group>"; };
+		07F09A7A201F441800847DBB /* SKShapeNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKShapeNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A7B201F441800847DBB /* SKPhysicsJointPin+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsJointPin+Binder.swift"; sourceTree = "<group>"; };
+		07F09A7C201F441800847DBB /* SKLightNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLightNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A7D201F441800847DBB /* SKPhysicsJointSliding+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsJointSliding+Binder.swift"; sourceTree = "<group>"; };
+		07F09A7E201F441800847DBB /* SKLabelNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabelNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A7F201F441800847DBB /* SKPhysicsBody+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsBody+Binder.swift"; sourceTree = "<group>"; };
+		07F09A80201F441800847DBB /* SKPhysicsJointLimit+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsJointLimit+Binder.swift"; sourceTree = "<group>"; };
+		07F09A81201F441800847DBB /* SKFieldNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKFieldNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A82201F441800847DBB /* SKNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A83201F441800847DBB /* SKAudioNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAudioNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A84201F441800847DBB /* SKCropNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKCropNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A85201F441800847DBB /* SKView+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKView+Binder.swift"; sourceTree = "<group>"; };
+		07F09A86201F441800847DBB /* SKPhysicsWorld+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsWorld+Binder.swift"; sourceTree = "<group>"; };
+		07F09A87201F441800847DBB /* SKScene+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKScene+Binder.swift"; sourceTree = "<group>"; };
+		07F09A88201F441800847DBB /* SKSpriteNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A89201F441800847DBB /* SKTileMapNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKTileMapNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A8A201F441800847DBB /* SKPhysicsJoint+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsJoint+Binder.swift"; sourceTree = "<group>"; };
+		07F09A8B201F441800847DBB /* SK3DNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SK3DNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A8C201F441800847DBB /* SKVideoNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKVideoNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A8D201F441800847DBB /* SKTransformNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKTransformNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A8E201F441800847DBB /* SKEffectNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKEffectNode+Binder.swift"; sourceTree = "<group>"; };
+		07F09A8F201F441800847DBB /* SKEmitterNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKEmitterNode+Binder.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,8 +336,8 @@
 		074F6763200655CB003F3D9B /* RxSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
-				0796F87A200B61BF004CFBE5 /* Binders */,
 				074F6764200655CB003F3D9B /* Info.plist */,
+				07F09A77201F441800847DBB /* Binders */,
 				0735199D20138710008411E3 /* Input */,
 				0796F88A200B7A7D004CFBE5 /* LifeCycles */,
 				0796F876200B6030004CFBE5 /* Utilities */,
@@ -373,35 +394,42 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		0796F87A200B61BF004CFBE5 /* Binders */ = {
-			isa = PBXGroup;
-			children = (
-				07B0B0322010FF7000467BA9 /* SK3DNode+Binder.swift */,
-				07B0B02E2010FF7000467BA9 /* SKAudioNode+Binder.swift */,
-				07B0B0362010FF7100467BA9 /* SKCropNode+Binder.swift */,
-				07B0B03A2010FF7100467BA9 /* SKEffectNode+Binder.swift */,
-				07B0B0342010FF7000467BA9 /* SKEmitterNode+Binder.swift */,
-				07B0B0312010FF7000467BA9 /* SKFieldNode+Binder.swift */,
-				07B0B0332010FF7000467BA9 /* SKLabelNode+Binder.swift */,
-				07B0B03B2010FF7100467BA9 /* SKLightNode+Binder.swift */,
-				07B0B02D2010FF7000467BA9 /* SKNode+Binder.swift */,
-				07B0B02F2010FF7000467BA9 /* SKScene+Binder.swift */,
-				07B0B0302010FF7000467BA9 /* SKShapeNode+Binder.swift */,
-				07B0B0382010FF7100467BA9 /* SKSpriteNode+Binder.swift */,
-				07B0B0372010FF7100467BA9 /* SKTileMapNode+Binder.swift */,
-				07B0B0392010FF7100467BA9 /* SKTransformNode+Binder.swift */,
-				07B0B03C2010FF7100467BA9 /* SKVideoNode+Binder.swift */,
-				07B0B0352010FF7100467BA9 /* SKView+Binder.swift */,
-			);
-			path = Binders;
-			sourceTree = "<group>";
-		};
 		0796F88A200B7A7D004CFBE5 /* LifeCycles */ = {
 			isa = PBXGroup;
 			children = (
 				0796F88B200B7AB4004CFBE5 /* SKScene+LifeCycle.swift */,
 			);
 			path = LifeCycles;
+			sourceTree = "<group>";
+		};
+		07F09A77201F441800847DBB /* Binders */ = {
+			isa = PBXGroup;
+			children = (
+				07F09A8B201F441800847DBB /* SK3DNode+Binder.swift */,
+				07F09A83201F441800847DBB /* SKAudioNode+Binder.swift */,
+				07F09A84201F441800847DBB /* SKCropNode+Binder.swift */,
+				07F09A8E201F441800847DBB /* SKEffectNode+Binder.swift */,
+				07F09A8F201F441800847DBB /* SKEmitterNode+Binder.swift */,
+				07F09A81201F441800847DBB /* SKFieldNode+Binder.swift */,
+				07F09A7E201F441800847DBB /* SKLabelNode+Binder.swift */,
+				07F09A7C201F441800847DBB /* SKLightNode+Binder.swift */,
+				07F09A82201F441800847DBB /* SKNode+Binder.swift */,
+				07F09A7F201F441800847DBB /* SKPhysicsBody+Binder.swift */,
+				07F09A8A201F441800847DBB /* SKPhysicsJoint+Binder.swift */,
+				07F09A80201F441800847DBB /* SKPhysicsJointLimit+Binder.swift */,
+				07F09A7B201F441800847DBB /* SKPhysicsJointPin+Binder.swift */,
+				07F09A7D201F441800847DBB /* SKPhysicsJointSliding+Binder.swift */,
+				07F09A78201F441800847DBB /* SKPhysicsJointSpring+Binder.swift */,
+				07F09A86201F441800847DBB /* SKPhysicsWorld+Binder.swift */,
+				07F09A87201F441800847DBB /* SKScene+Binder.swift */,
+				07F09A7A201F441800847DBB /* SKShapeNode+Binder.swift */,
+				07F09A88201F441800847DBB /* SKSpriteNode+Binder.swift */,
+				07F09A89201F441800847DBB /* SKTileMapNode+Binder.swift */,
+				07F09A8D201F441800847DBB /* SKTransformNode+Binder.swift */,
+				07F09A8C201F441800847DBB /* SKVideoNode+Binder.swift */,
+				07F09A85201F441800847DBB /* SKView+Binder.swift */,
+			);
+			path = Binders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -795,25 +823,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07B0B0492010FF7100467BA9 /* SKLabelNode+Binder.swift in Sources */,
-				07B0B03F2010FF7100467BA9 /* SKAudioNode+Binder.swift in Sources */,
-				07B0B04B2010FF7100467BA9 /* SKEmitterNode+Binder.swift in Sources */,
+				07F09A9E201F441800847DBB /* SKPhysicsBody+Binder.swift in Sources */,
 				073519A3201387CD008411E3 /* UIResponder+Rx.swift in Sources */,
-				07B0B0592010FF7100467BA9 /* SKLightNode+Binder.swift in Sources */,
-				07B0B03D2010FF7100467BA9 /* SKNode+Binder.swift in Sources */,
-				07B0B0572010FF7100467BA9 /* SKEffectNode+Binder.swift in Sources */,
-				07B0B0472010FF7100467BA9 /* SK3DNode+Binder.swift in Sources */,
-				07B0B0512010FF7100467BA9 /* SKTileMapNode+Binder.swift in Sources */,
-				07B0B0532010FF7100467BA9 /* SKSpriteNode+Binder.swift in Sources */,
+				07F09ABE201F441800847DBB /* SKEmitterNode+Binder.swift in Sources */,
+				07F09AB4201F441800847DBB /* SKPhysicsJoint+Binder.swift in Sources */,
+				07F09AAC201F441800847DBB /* SKPhysicsWorld+Binder.swift in Sources */,
+				07F09A96201F441800847DBB /* SKPhysicsJointPin+Binder.swift in Sources */,
+				07F09AB8201F441800847DBB /* SKVideoNode+Binder.swift in Sources */,
+				07F09A9C201F441800847DBB /* SKLabelNode+Binder.swift in Sources */,
+				07F09AA0201F441800847DBB /* SKPhysicsJointLimit+Binder.swift in Sources */,
+				07F09AAA201F441800847DBB /* SKView+Binder.swift in Sources */,
+				07F09AA4201F441800847DBB /* SKNode+Binder.swift in Sources */,
+				07F09ABA201F441800847DBB /* SKTransformNode+Binder.swift in Sources */,
+				07F09A9A201F441800847DBB /* SKPhysicsJointSliding+Binder.swift in Sources */,
+				07F09AB6201F441800847DBB /* SK3DNode+Binder.swift in Sources */,
+				07F09AB2201F441800847DBB /* SKTileMapNode+Binder.swift in Sources */,
+				07F09ABC201F441800847DBB /* SKEffectNode+Binder.swift in Sources */,
+				07F09AB0201F441800847DBB /* SKSpriteNode+Binder.swift in Sources */,
+				07F09A90201F441800847DBB /* SKPhysicsJointSpring+Binder.swift in Sources */,
+				07F09AA8201F441800847DBB /* SKCropNode+Binder.swift in Sources */,
+				07F09A94201F441800847DBB /* SKShapeNode+Binder.swift in Sources */,
+				07F09AA6201F441800847DBB /* SKAudioNode+Binder.swift in Sources */,
 				0796F88F200B7B87004CFBE5 /* SKScene+LifeCycle.swift in Sources */,
-				07B0B04D2010FF7100467BA9 /* SKView+Binder.swift in Sources */,
-				07B0B0432010FF7100467BA9 /* SKShapeNode+Binder.swift in Sources */,
-				07B0B0552010FF7100467BA9 /* SKTransformNode+Binder.swift in Sources */,
-				07B0B0452010FF7100467BA9 /* SKFieldNode+Binder.swift in Sources */,
-				07B0B04F2010FF7100467BA9 /* SKCropNode+Binder.swift in Sources */,
-				07B0B0412010FF7100467BA9 /* SKScene+Binder.swift in Sources */,
+				07F09AA2201F441800847DBB /* SKFieldNode+Binder.swift in Sources */,
+				07F09A98201F441800847DBB /* SKLightNode+Binder.swift in Sources */,
+				07F09AAE201F441800847DBB /* SKScene+Binder.swift in Sources */,
 				0796F878200B6048004CFBE5 /* Aliases.swift in Sources */,
-				07B0B05B2010FF7100467BA9 /* SKVideoNode+Binder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,24 +856,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07B0B04A2010FF7100467BA9 /* SKLabelNode+Binder.swift in Sources */,
-				07B0B0402010FF7100467BA9 /* SKAudioNode+Binder.swift in Sources */,
-				07B0B04C2010FF7100467BA9 /* SKEmitterNode+Binder.swift in Sources */,
-				07B0B05A2010FF7100467BA9 /* SKLightNode+Binder.swift in Sources */,
-				07B0B03E2010FF7100467BA9 /* SKNode+Binder.swift in Sources */,
-				07B0B0582010FF7100467BA9 /* SKEffectNode+Binder.swift in Sources */,
-				07B0B0482010FF7100467BA9 /* SK3DNode+Binder.swift in Sources */,
-				07B0B0522010FF7100467BA9 /* SKTileMapNode+Binder.swift in Sources */,
-				07B0B0542010FF7100467BA9 /* SKSpriteNode+Binder.swift in Sources */,
+				07F09A9F201F441800847DBB /* SKPhysicsBody+Binder.swift in Sources */,
 				0796F88E200B7B87004CFBE5 /* SKScene+LifeCycle.swift in Sources */,
-				07B0B04E2010FF7100467BA9 /* SKView+Binder.swift in Sources */,
-				07B0B0442010FF7100467BA9 /* SKShapeNode+Binder.swift in Sources */,
-				07B0B0562010FF7100467BA9 /* SKTransformNode+Binder.swift in Sources */,
-				07B0B0462010FF7100467BA9 /* SKFieldNode+Binder.swift in Sources */,
-				07B0B0502010FF7100467BA9 /* SKCropNode+Binder.swift in Sources */,
-				07B0B0422010FF7100467BA9 /* SKScene+Binder.swift in Sources */,
+				07F09ABF201F441800847DBB /* SKEmitterNode+Binder.swift in Sources */,
+				07F09AB5201F441800847DBB /* SKPhysicsJoint+Binder.swift in Sources */,
+				07F09AAD201F441800847DBB /* SKPhysicsWorld+Binder.swift in Sources */,
+				07F09A97201F441800847DBB /* SKPhysicsJointPin+Binder.swift in Sources */,
+				07F09AB9201F441800847DBB /* SKVideoNode+Binder.swift in Sources */,
+				07F09A9D201F441800847DBB /* SKLabelNode+Binder.swift in Sources */,
+				07F09AA1201F441800847DBB /* SKPhysicsJointLimit+Binder.swift in Sources */,
+				07F09AAB201F441800847DBB /* SKView+Binder.swift in Sources */,
+				07F09AA5201F441800847DBB /* SKNode+Binder.swift in Sources */,
+				07F09ABB201F441800847DBB /* SKTransformNode+Binder.swift in Sources */,
+				07F09A9B201F441800847DBB /* SKPhysicsJointSliding+Binder.swift in Sources */,
+				07F09AB7201F441800847DBB /* SK3DNode+Binder.swift in Sources */,
+				07F09AB3201F441800847DBB /* SKTileMapNode+Binder.swift in Sources */,
+				07F09ABD201F441800847DBB /* SKEffectNode+Binder.swift in Sources */,
+				07F09AB1201F441800847DBB /* SKSpriteNode+Binder.swift in Sources */,
+				07F09A91201F441800847DBB /* SKPhysicsJointSpring+Binder.swift in Sources */,
+				07F09AA9201F441800847DBB /* SKCropNode+Binder.swift in Sources */,
+				07F09A95201F441800847DBB /* SKShapeNode+Binder.swift in Sources */,
+				07F09AA7201F441800847DBB /* SKAudioNode+Binder.swift in Sources */,
 				0796F879200B6048004CFBE5 /* Aliases.swift in Sources */,
-				07B0B05C2010FF7100467BA9 /* SKVideoNode+Binder.swift in Sources */,
+				07F09AA3201F441800847DBB /* SKFieldNode+Binder.swift in Sources */,
+				07F09A99201F441800847DBB /* SKLightNode+Binder.swift in Sources */,
+				07F09AAF201F441800847DBB /* SKScene+Binder.swift in Sources */,
 				073519A020138791008411E3 /* NSResponder+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

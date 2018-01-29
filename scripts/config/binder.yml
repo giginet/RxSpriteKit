@@ -173,3 +173,43 @@ SKView:
   showsNodeCount: Bool
   showsPhysics: Bool
   showsFields: Bool
+SKPhysicsBody:
+  affectedByGravity: Bool
+  allowsRotation: Bool
+  isDynamic: Bool
+  mass: CGFloat
+  density: CGFloat
+  friction: CGFloat
+  restitution: CGFloat
+  linearDamping: CGFloat
+  angularDamping: CGFloat
+  categoryBitMask: UInt32
+  collisionBitMask: UInt32
+  usesPreciseCollisionDetection: Bool
+  contactTestBitMask: UInt32
+  velocity: CGVector
+  angularVelocity: CGFloat
+  fieldBitMask: UInt32
+  charge: CGFloat
+  pinned: Bool
+SKPhysicsWorld:
+  gravity: CGVector
+  speed: CGFloat
+SKPhysicsJoint:
+  bodyA: SKPhysicsBody
+  bodyB: SKPhysicsBody
+SKPhysicsJointPin:
+  rotationSpeed: CGFloat
+  shouldEnableLimits: Bool
+  lowerAngleLimit: CGFloat
+  upperAngleLimit: CGFloat
+  frictionTorque: CGFloat
+SKPhysicsJointLimit:
+  maxLength: CGFloat
+SKPhysicsJointSpring:
+  damping: CGFloat
+  frequency: CGFloat
+SKPhysicsJointSliding:
+  shouldEnableLimits: Bool
+  lowerDistanceLimit: CGFloat
+  upperDistanceLimit: CGFloat
