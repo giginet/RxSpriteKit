@@ -8,6 +8,15 @@ class GameScene: SKScene {
     private let disposeBag = DisposeBag()
     private var label: SKLabelNode!
     private let frameRelay = PublishRelay<Int>()
+    
+    static func createScene() -> SKScene {
+        if let scene = SKScene(fileNamed: "GameScene") {
+            scene.scaleMode = .aspectFill
+            scene.size = CGSize(width: 1136, height: 640)
+            return scene
+        }
+        fatalError("GameScene is not loaded")
+    }
 
     override func sceneDidLoad() {
         super.sceneDidLoad()
