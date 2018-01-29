@@ -9,6 +9,11 @@ OUTPUT_DIR_PATH = File.join(BASE_DIR, "RxSpriteKit", "Binders")
 
 config = YAML.load_file(CONFIG_PATH)
 
+HEADERS = {
+  SK3DNode: %w{SceneKit},
+  SKAudioNode: %w{AVFoundation},
+}
+
 SwiftProperty = Struct.new(:name, :type)
 
 class SwiftClass
@@ -25,6 +30,7 @@ classes = config.map { |name, properties| SwiftClass.new(name, properties) }
 classes.each do |swift_class|
   class_name = swift_class.name
   properties = swift_class.properties
+  headers = HEADERS[class_name.to_sym] || []
   source_code = ERB.new(File.read(TEMPLATE_PATH)).result(binding)
   file_name = "#{class_name}+Binder.swift"
   File.open(File.join(OUTPUT_DIR_PATH, file_name), "w+").write(source_code)
