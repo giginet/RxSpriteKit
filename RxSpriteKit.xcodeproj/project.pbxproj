@@ -39,12 +39,40 @@
 		077183CE200E4F21000C2E8E /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077183CD200E4F21000C2E8E /* RxTest.framework */; };
 		0779CA64200640B8001A1FE1 /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA3C2006407E001A1FE1 /* RxSpriteKit.framework */; };
 		0779CA732006542E001A1FE1 /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA4E20064098001A1FE1 /* RxSpriteKit.framework */; };
+		077B6BC5202896D800BAD644 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077B6BC3202896D800BAD644 /* RxSwift.framework */; };
+		077B6BC6202896D800BAD644 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077B6BC4202896D800BAD644 /* RxCocoa.framework */; };
 		0796F878200B6048004CFBE5 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F877200B6048004CFBE5 /* Aliases.swift */; };
 		0796F879200B6048004CFBE5 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F877200B6048004CFBE5 /* Aliases.swift */; };
 		0796F886200B70C8004CFBE5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F884200B70C8004CFBE5 /* GameScene.swift */; };
 		0796F887200B70C8004CFBE5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F884200B70C8004CFBE5 /* GameScene.swift */; };
 		0796F88E200B7B87004CFBE5 /* SKScene+LifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F88B200B7AB4004CFBE5 /* SKScene+LifeCycle.swift */; };
 		0796F88F200B7B87004CFBE5 /* SKScene+LifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F88B200B7AB4004CFBE5 /* SKScene+LifeCycle.swift */; };
+		07DA861C2028950500DF391F /* SK3DNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8B201F441800847DBB /* SK3DNode+Binder.swift */; };
+		07DA861D2028950500DF391F /* SKAudioNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A83201F441800847DBB /* SKAudioNode+Binder.swift */; };
+		07DA861E2028950500DF391F /* SKCropNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A84201F441800847DBB /* SKCropNode+Binder.swift */; };
+		07DA861F2028950500DF391F /* SKEffectNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8E201F441800847DBB /* SKEffectNode+Binder.swift */; };
+		07DA86202028950500DF391F /* SKEmitterNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8F201F441800847DBB /* SKEmitterNode+Binder.swift */; };
+		07DA86212028950500DF391F /* SKFieldNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A81201F441800847DBB /* SKFieldNode+Binder.swift */; };
+		07DA86222028950500DF391F /* SKLabelNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7E201F441800847DBB /* SKLabelNode+Binder.swift */; };
+		07DA86232028950500DF391F /* SKLightNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7C201F441800847DBB /* SKLightNode+Binder.swift */; };
+		07DA86242028950500DF391F /* SKNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A82201F441800847DBB /* SKNode+Binder.swift */; };
+		07DA86252028950500DF391F /* SKPhysicsBody+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7F201F441800847DBB /* SKPhysicsBody+Binder.swift */; };
+		07DA86262028950500DF391F /* SKPhysicsJoint+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8A201F441800847DBB /* SKPhysicsJoint+Binder.swift */; };
+		07DA86272028950500DF391F /* SKPhysicsJointLimit+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A80201F441800847DBB /* SKPhysicsJointLimit+Binder.swift */; };
+		07DA86282028950500DF391F /* SKPhysicsJointPin+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7B201F441800847DBB /* SKPhysicsJointPin+Binder.swift */; };
+		07DA86292028950500DF391F /* SKPhysicsJointSliding+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7D201F441800847DBB /* SKPhysicsJointSliding+Binder.swift */; };
+		07DA862A2028950500DF391F /* SKPhysicsJointSpring+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A78201F441800847DBB /* SKPhysicsJointSpring+Binder.swift */; };
+		07DA862B2028950500DF391F /* SKPhysicsWorld+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A86201F441800847DBB /* SKPhysicsWorld+Binder.swift */; };
+		07DA862C2028950500DF391F /* SKScene+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A87201F441800847DBB /* SKScene+Binder.swift */; };
+		07DA862D2028950500DF391F /* SKShapeNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7A201F441800847DBB /* SKShapeNode+Binder.swift */; };
+		07DA862E2028950500DF391F /* SKSpriteNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A88201F441800847DBB /* SKSpriteNode+Binder.swift */; };
+		07DA862F2028950500DF391F /* SKTileMapNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A89201F441800847DBB /* SKTileMapNode+Binder.swift */; };
+		07DA86302028950500DF391F /* SKTransformNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8D201F441800847DBB /* SKTransformNode+Binder.swift */; };
+		07DA86312028950500DF391F /* SKVideoNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8C201F441800847DBB /* SKVideoNode+Binder.swift */; };
+		07DA86322028950500DF391F /* SKView+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A85201F441800847DBB /* SKView+Binder.swift */; };
+		07DA86332028950A00DF391F /* UIResponder+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073519A2201387CD008411E3 /* UIResponder+Rx.swift */; };
+		07DA86342028950F00DF391F /* SKScene+LifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F88B200B7AB4004CFBE5 /* SKScene+LifeCycle.swift */; };
+		07DA86352028951300DF391F /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F877200B6048004CFBE5 /* Aliases.swift */; };
 		07F09A90201F441800847DBB /* SKPhysicsJointSpring+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A78201F441800847DBB /* SKPhysicsJointSpring+Binder.swift */; };
 		07F09A91201F441800847DBB /* SKPhysicsJointSpring+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A78201F441800847DBB /* SKPhysicsJointSpring+Binder.swift */; };
 		07F09A94201F441800847DBB /* SKShapeNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A7A201F441800847DBB /* SKShapeNode+Binder.swift */; };
@@ -149,8 +177,6 @@
 		074A716A200A44C30087739C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
 		074F6764200655CB003F3D9B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		077183BB200E460D000C2E8E /* SKScene+LifeCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKScene+LifeCycleTests.swift"; sourceTree = "<group>"; };
-		077183C3200E4AAA000C2E8E /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
-		077183C5200E4AB5000C2E8E /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/Mac/RxBlocking.framework; sourceTree = "<group>"; };
 		077183C9200E4C85000C2E8E /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		077183CD200E4F21000C2E8E /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/Mac/RxTest.framework; sourceTree = "<group>"; };
 		0779CA3C2006407E001A1FE1 /* RxSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,9 +184,12 @@
 		0779CA5F200640B8001A1FE1 /* RxSpriteKitTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSpriteKitTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0779CA6E2006542D001A1FE1 /* RxSpriteKitTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSpriteKitTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0779CA9A20065533001A1FE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077B6BC3202896D800BAD644 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
+		077B6BC4202896D800BAD644 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/tvOS/RxCocoa.framework; sourceTree = "<group>"; };
 		0796F877200B6048004CFBE5 /* Aliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
 		0796F884200B70C8004CFBE5 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		0796F88B200B7AB4004CFBE5 /* SKScene+LifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKScene+LifeCycle.swift"; sourceTree = "<group>"; };
+		07DA8614202894C900DF391F /* RxSpriteKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSpriteKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F09A78201F441800847DBB /* SKPhysicsJointSpring+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsJointSpring+Binder.swift"; sourceTree = "<group>"; };
 		07F09A7A201F441800847DBB /* SKShapeNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKShapeNode+Binder.swift"; sourceTree = "<group>"; };
 		07F09A7B201F441800847DBB /* SKPhysicsJointPin+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsJointPin+Binder.swift"; sourceTree = "<group>"; };
@@ -247,6 +276,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		07DA8610202894C900DF391F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B6BC5202896D800BAD644 /* RxSwift.framework in Frameworks */,
+				077B6BC6202896D800BAD644 /* RxCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -315,14 +353,9 @@
 		074A715F200A433D0087739C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				077183C9200E4C85000C2E8E /* RxTest.framework */,
-				077183CD200E4F21000C2E8E /* RxTest.framework */,
-				077183C3200E4AAA000C2E8E /* RxBlocking.framework */,
-				077183C5200E4AB5000C2E8E /* RxBlocking.framework */,
-				074A7169200A44C30087739C /* RxCocoa.framework */,
-				074A716A200A44C30087739C /* RxSwift.framework */,
-				074A7160200A433E0087739C /* RxCocoa.framework */,
-				074A7161200A433E0087739C /* RxSwift.framework */,
+				077B6BC92028971F00BAD644 /* iOS */,
+				077B6BC8202896F800BAD644 /* macOS */,
+				077B6BC7202896EF00BAD644 /* tvOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -359,6 +392,7 @@
 				0779CA6E2006542D001A1FE1 /* RxSpriteKitTests-macOS.xctest */,
 				070D186D200A3F42001CFC8D /* RxSpriteKitDemo-macOS.app */,
 				070D1887200A3F68001CFC8D /* RxSpriteKitDemo-iOS.app */,
+				07DA8614202894C900DF391F /* RxSpriteKit_tvOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -378,6 +412,35 @@
 				077183BB200E460D000C2E8E /* SKScene+LifeCycleTests.swift */,
 			);
 			path = RxSpriteKit;
+			sourceTree = "<group>";
+		};
+		077B6BC7202896EF00BAD644 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				077B6BC4202896D800BAD644 /* RxCocoa.framework */,
+				077B6BC3202896D800BAD644 /* RxSwift.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		077B6BC8202896F800BAD644 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				074A716A200A44C30087739C /* RxSwift.framework */,
+				074A7169200A44C30087739C /* RxCocoa.framework */,
+				077183CD200E4F21000C2E8E /* RxTest.framework */,
+			);
+			name = macOS;
+			sourceTree = "<group>";
+		};
+		077B6BC92028971F00BAD644 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				074A7161200A433E0087739C /* RxSwift.framework */,
+				074A7160200A433E0087739C /* RxCocoa.framework */,
+				077183C9200E4C85000C2E8E /* RxTest.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		0796F876200B6030004CFBE5 /* Utilities */ = {
@@ -437,6 +500,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0779CA4B20064098001A1FE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DA8611202894C900DF391F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -560,6 +630,25 @@
 			productReference = 0779CA6E2006542D001A1FE1 /* RxSpriteKitTests-macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		07DA8613202894C900DF391F /* RxSpriteKit-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DA861B202894C900DF391F /* Build configuration list for PBXNativeTarget "RxSpriteKit-tvOS" */;
+			buildPhases = (
+				07DA860F202894C900DF391F /* Sources */,
+				07DA8610202894C900DF391F /* Frameworks */,
+				07DA8611202894C900DF391F /* Headers */,
+				07DA8612202894C900DF391F /* Resources */,
+				077B6BC22028967B00BAD644 /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RxSpriteKit-tvOS";
+			productName = RxSpriteKit;
+			productReference = 07DA8614202894C900DF391F /* RxSpriteKit_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -598,6 +687,10 @@
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
+					07DA8613202894C900DF391F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 0779C9E920063CA9001A1FE1 /* Build configuration list for PBXProject "RxSpriteKit" */;
@@ -615,6 +708,7 @@
 			targets = (
 				0779CA3B2006407E001A1FE1 /* RxSpriteKit-iOS */,
 				0779CA4D20064098001A1FE1 /* RxSpriteKit-macOS */,
+				07DA8613202894C900DF391F /* RxSpriteKit-tvOS */,
 				0779CA5E200640B8001A1FE1 /* RxSpriteKitTests-iOS */,
 				0779CA6D2006542D001A1FE1 /* RxSpriteKitTests-macOS */,
 				070D1886200A3F68001CFC8D /* RxSpriteKitDemo-iOS */,
@@ -667,6 +761,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0779CA6C2006542D001A1FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DA8612202894C900DF391F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -788,6 +889,24 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
+		077B6BC22028967B00BAD644 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/RxCocoa.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -890,6 +1009,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				077183BD200E460D000C2E8E /* SKScene+LifeCycleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DA860F202894C900DF391F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DA862F2028950500DF391F /* SKTileMapNode+Binder.swift in Sources */,
+				07DA86282028950500DF391F /* SKPhysicsJointPin+Binder.swift in Sources */,
+				07DA861F2028950500DF391F /* SKEffectNode+Binder.swift in Sources */,
+				07DA86252028950500DF391F /* SKPhysicsBody+Binder.swift in Sources */,
+				07DA86332028950A00DF391F /* UIResponder+Rx.swift in Sources */,
+				07DA86342028950F00DF391F /* SKScene+LifeCycle.swift in Sources */,
+				07DA86302028950500DF391F /* SKTransformNode+Binder.swift in Sources */,
+				07DA86262028950500DF391F /* SKPhysicsJoint+Binder.swift in Sources */,
+				07DA862C2028950500DF391F /* SKScene+Binder.swift in Sources */,
+				07DA861E2028950500DF391F /* SKCropNode+Binder.swift in Sources */,
+				07DA86272028950500DF391F /* SKPhysicsJointLimit+Binder.swift in Sources */,
+				07DA86202028950500DF391F /* SKEmitterNode+Binder.swift in Sources */,
+				07DA862E2028950500DF391F /* SKSpriteNode+Binder.swift in Sources */,
+				07DA861D2028950500DF391F /* SKAudioNode+Binder.swift in Sources */,
+				07DA86322028950500DF391F /* SKView+Binder.swift in Sources */,
+				07DA86222028950500DF391F /* SKLabelNode+Binder.swift in Sources */,
+				07DA86352028951300DF391F /* Aliases.swift in Sources */,
+				07DA86312028950500DF391F /* SKVideoNode+Binder.swift in Sources */,
+				07DA86212028950500DF391F /* SKFieldNode+Binder.swift in Sources */,
+				07DA86242028950500DF391F /* SKNode+Binder.swift in Sources */,
+				07DA862A2028950500DF391F /* SKPhysicsJointSpring+Binder.swift in Sources */,
+				07DA86232028950500DF391F /* SKLightNode+Binder.swift in Sources */,
+				07DA861C2028950500DF391F /* SK3DNode+Binder.swift in Sources */,
+				07DA862D2028950500DF391F /* SKShapeNode+Binder.swift in Sources */,
+				07DA862B2028950500DF391F /* SKPhysicsWorld+Binder.swift in Sources */,
+				07DA86292028950500DF391F /* SKPhysicsJointSliding+Binder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1339,6 +1491,66 @@
 			};
 			name = Release;
 		};
+		07DA8619202894C900DF391F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2AWR7Z4WYE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = RxSpriteKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		07DA861A202894C900DF391F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2AWR7Z4WYE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = RxSpriteKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1401,6 +1613,15 @@
 			buildConfigurations = (
 				0779CA772006542E001A1FE1 /* Debug */,
 				0779CA782006542E001A1FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07DA861B202894C900DF391F /* Build configuration list for PBXNativeTarget "RxSpriteKit-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DA8619202894C900DF391F /* Debug */,
+				07DA861A202894C900DF391F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
