@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/giginet/RxSpriteKit.svg?branch=master)](https://travis-ci.org/giginet/RxSpriteKit)
 [![Language](https://img.shields.io/badge/language-Swift%204.0.2-orange.svg)](https://swift.org)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Platform](https://img.shields.io/badge/platform-iOS%7cmacOS%7tvOS-lightgray.svg)](https://github.com/giginet/RxSpriteKit)
+[![Platform](https://img.shields.io/badge/platform-iOS%7cmacOS%7ctvOS-lightgray.svg)](https://github.com/giginet/RxSpriteKit)
 
 React extensions for SpriteKit :space_invader:
 
