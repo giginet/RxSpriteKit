@@ -41,6 +41,11 @@
 		0779CA732006542E001A1FE1 /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA4E20064098001A1FE1 /* RxSpriteKit.framework */; };
 		077B6BC5202896D800BAD644 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077B6BC3202896D800BAD644 /* RxSwift.framework */; };
 		077B6BC6202896D800BAD644 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077B6BC4202896D800BAD644 /* RxCocoa.framework */; };
+		077B6BD32028983E00BAD644 /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DA8614202894C900DF391F /* RxSpriteKit.framework */; };
+		077B6BDA2028992800BAD644 /* SKScene+LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077183BB200E460D000C2E8E /* SKScene+LifeCycleTests.swift */; };
+		077B6BDD2028997700BAD644 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077B6BC4202896D800BAD644 /* RxCocoa.framework */; };
+		077B6BDE2028997700BAD644 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077B6BC3202896D800BAD644 /* RxSwift.framework */; };
+		077B6BE02028997800BAD644 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077B6BDF2028997800BAD644 /* RxTest.framework */; };
 		0796F878200B6048004CFBE5 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F877200B6048004CFBE5 /* Aliases.swift */; };
 		0796F879200B6048004CFBE5 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F877200B6048004CFBE5 /* Aliases.swift */; };
 		0796F886200B70C8004CFBE5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796F884200B70C8004CFBE5 /* GameScene.swift */; };
@@ -151,6 +156,13 @@
 			remoteGlobalIDString = 0779CA4D20064098001A1FE1;
 			remoteInfo = "RxSpriteKit-macOS";
 		};
+		077B6BDB2028996900BAD644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0779C9E620063CA9001A1FE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DA8613202894C900DF391F;
+			remoteInfo = "RxSpriteKit-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -186,10 +198,12 @@
 		0779CA9A20065533001A1FE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		077B6BC3202896D800BAD644 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
 		077B6BC4202896D800BAD644 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/tvOS/RxCocoa.framework; sourceTree = "<group>"; };
+		077B6BCE2028983E00BAD644 /* RxSpriteKitTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSpriteKitTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		077B6BDF2028997800BAD644 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/tvOS/RxTest.framework; sourceTree = "<group>"; };
 		0796F877200B6048004CFBE5 /* Aliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
 		0796F884200B70C8004CFBE5 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		0796F88B200B7AB4004CFBE5 /* SKScene+LifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKScene+LifeCycle.swift"; sourceTree = "<group>"; };
-		07DA8614202894C900DF391F /* RxSpriteKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSpriteKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DA8614202894C900DF391F /* RxSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F09A78201F441800847DBB /* SKPhysicsJointSpring+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsJointSpring+Binder.swift"; sourceTree = "<group>"; };
 		07F09A7A201F441800847DBB /* SKShapeNode+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKShapeNode+Binder.swift"; sourceTree = "<group>"; };
 		07F09A7B201F441800847DBB /* SKPhysicsJointPin+Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsJointPin+Binder.swift"; sourceTree = "<group>"; };
@@ -276,6 +290,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		077B6BCB2028983E00BAD644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B6BDE2028997700BAD644 /* RxSwift.framework in Frameworks */,
+				077B6BDD2028997700BAD644 /* RxCocoa.framework in Frameworks */,
+				077B6BE02028997800BAD644 /* RxTest.framework in Frameworks */,
+				077B6BD32028983E00BAD644 /* RxSpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		07DA8610202894C900DF391F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,6 +378,7 @@
 		074A715F200A433D0087739C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				077B6BDF2028997800BAD644 /* RxTest.framework */,
 				077B6BC92028971F00BAD644 /* iOS */,
 				077B6BC8202896F800BAD644 /* macOS */,
 				077B6BC7202896EF00BAD644 /* tvOS */,
@@ -392,7 +418,8 @@
 				0779CA6E2006542D001A1FE1 /* RxSpriteKitTests-macOS.xctest */,
 				070D186D200A3F42001CFC8D /* RxSpriteKitDemo-macOS.app */,
 				070D1887200A3F68001CFC8D /* RxSpriteKitDemo-iOS.app */,
-				07DA8614202894C900DF391F /* RxSpriteKit_tvOS.framework */,
+				07DA8614202894C900DF391F /* RxSpriteKit.framework */,
+				077B6BCE2028983E00BAD644 /* RxSpriteKitTests-tvOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -630,6 +657,25 @@
 			productReference = 0779CA6E2006542D001A1FE1 /* RxSpriteKitTests-macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		077B6BCD2028983E00BAD644 /* RxSpriteKitTests-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077B6BD62028983E00BAD644 /* Build configuration list for PBXNativeTarget "RxSpriteKitTests-tvOS" */;
+			buildPhases = (
+				077B6BCA2028983E00BAD644 /* Sources */,
+				077B6BCB2028983E00BAD644 /* Frameworks */,
+				077B6BCC2028983E00BAD644 /* Resources */,
+				077B6BD92028989E00BAD644 /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077B6BDC2028996900BAD644 /* PBXTargetDependency */,
+			);
+			name = "RxSpriteKitTests-tvOS";
+			productName = RxSpriteKitTests;
+			productReference = 077B6BCE2028983E00BAD644 /* RxSpriteKitTests-tvOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		07DA8613202894C900DF391F /* RxSpriteKit-tvOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07DA861B202894C900DF391F /* Build configuration list for PBXNativeTarget "RxSpriteKit-tvOS" */;
@@ -646,7 +692,7 @@
 			);
 			name = "RxSpriteKit-tvOS";
 			productName = RxSpriteKit;
-			productReference = 07DA8614202894C900DF391F /* RxSpriteKit_tvOS.framework */;
+			productReference = 07DA8614202894C900DF391F /* RxSpriteKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -687,6 +733,10 @@
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
+					077B6BCD2028983E00BAD644 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					07DA8613202894C900DF391F = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -711,6 +761,7 @@
 				07DA8613202894C900DF391F /* RxSpriteKit-tvOS */,
 				0779CA5E200640B8001A1FE1 /* RxSpriteKitTests-iOS */,
 				0779CA6D2006542D001A1FE1 /* RxSpriteKitTests-macOS */,
+				077B6BCD2028983E00BAD644 /* RxSpriteKitTests-tvOS */,
 				070D1886200A3F68001CFC8D /* RxSpriteKitDemo-iOS */,
 				070D186C200A3F42001CFC8D /* RxSpriteKitDemo-macOS */,
 			);
@@ -761,6 +812,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0779CA6C2006542D001A1FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B6BCC2028983E00BAD644 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -907,6 +965,26 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
+		077B6BD92028989E00BAD644 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/RxTest.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1012,6 +1090,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		077B6BCA2028983E00BAD644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B6BDA2028992800BAD644 /* SKScene+LifeCycleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		07DA860F202894C900DF391F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1067,6 +1153,11 @@
 			isa = PBXTargetDependency;
 			target = 0779CA4D20064098001A1FE1 /* RxSpriteKit-macOS */;
 			targetProxy = 0779CA742006542E001A1FE1 /* PBXContainerItemProxy */;
+		};
+		077B6BDC2028996900BAD644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DA8613202894C900DF391F /* RxSpriteKit-tvOS */;
+			targetProxy = 077B6BDB2028996900BAD644 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1491,6 +1582,46 @@
 			};
 			name = Release;
 		};
+		077B6BD72028983E00BAD644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AWR7Z4WYE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Tests/RxSpriteKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		077B6BD82028983E00BAD644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AWR7Z4WYE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Tests/RxSpriteKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
 		07DA8619202894C900DF391F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1510,7 +1641,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = RxSpriteKit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1540,7 +1671,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = RxSpriteKit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1613,6 +1744,15 @@
 			buildConfigurations = (
 				0779CA772006542E001A1FE1 /* Debug */,
 				0779CA782006542E001A1FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077B6BD62028983E00BAD644 /* Build configuration list for PBXNativeTarget "RxSpriteKitTests-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077B6BD72028983E00BAD644 /* Debug */,
+				077B6BD82028983E00BAD644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
