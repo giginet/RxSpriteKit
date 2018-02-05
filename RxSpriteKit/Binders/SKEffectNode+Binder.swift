@@ -17,11 +17,15 @@ extension Reactive where Base: SKEffectNode {
         }
     }
 
+    #if os(iOS) || os(macOS) || os(tvOS)
+
     public var filter: Binder<CIFilter?> {
         return Binder(self.base) { view, filter in
             view.filter = filter
         }
     }
+
+    #endif
 
     public var shader: Binder<SKShader?> {
         return Binder(self.base) { view, shader in

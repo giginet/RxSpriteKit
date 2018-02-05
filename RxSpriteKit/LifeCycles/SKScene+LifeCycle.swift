@@ -14,6 +14,8 @@ extension Reactive where Base: SKScene {
         return ControlEvent(events: source)
     }
 
+    #if os(iOS) || os(macOS) || os(tvOS)
+
     public var willMove: ControlEvent<SKView> {
         let source = self.methodInvoked(#selector(Base.willMove)).map { $0.first as! SKView }
         return ControlEvent(events: source)
@@ -23,6 +25,8 @@ extension Reactive where Base: SKScene {
         let source = self.methodInvoked(#selector(Base.didMove)).map { $0.first as! SKView }
         return ControlEvent(events: source)
     }
+
+    #endif
 
     public var update: ControlEvent<TimeInterval> {
         let source = self.methodInvoked(#selector(Base.update)).map { $0.first as? TimeInterval ?? 0 }
