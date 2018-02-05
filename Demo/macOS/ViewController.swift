@@ -19,7 +19,7 @@ class ViewController: NSViewController {
 
         if let view = self.skView {
             let scene = GameScene.createScene()
-            
+
             // Present the scene
             view.presentScene(scene)
 
