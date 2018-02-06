@@ -223,13 +223,6 @@
 			remoteGlobalIDString = 07D3E1742029D84300A86B4A;
 			remoteInfo = "RxSpriteKitDemo Extension";
 		};
-		07D3E1852029D84300A86B4A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0779C9E620063CA9001A1FE1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07D3E1682029D84200A86B4A;
-			remoteInfo = RxSpriteKitDemo;
-		};
 		07D3E1A52029D9F500A86B4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0779C9E620063CA9001A1FE1 /* Project object */;
@@ -802,7 +795,6 @@
 			);
 			dependencies = (
 				074A7179200A47540087739C /* PBXTargetDependency */,
-				07D3E1862029D84300A86B4A /* PBXTargetDependency */,
 			);
 			name = "RxSpriteKitDemo-iOS";
 			productName = "RxSpriteKitDemo-iOS";
@@ -1633,11 +1625,6 @@
 			isa = PBXTargetDependency;
 			target = 07D3E1742029D84300A86B4A /* RxSpriteKitDemo Extension */;
 			targetProxy = 07D3E1772029D84300A86B4A /* PBXContainerItemProxy */;
-		};
-		07D3E1862029D84300A86B4A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 07D3E1682029D84200A86B4A /* RxSpriteKitDemo-watchOS */;
-			targetProxy = 07D3E1852029D84300A86B4A /* PBXContainerItemProxy */;
 		};
 		07D3E1A62029D9F500A86B4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
