@@ -1,5 +1,4 @@
 import SpriteKit
-import GameplayKit
 import RxSpriteKit
 import RxSwift
 import RxCocoa
