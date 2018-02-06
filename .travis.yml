@@ -11,8 +11,8 @@ before_script:
 matrix:
   include:
     - env: PLATFORM=macOS DESTINATION='platform=macOS,arch=x86_64'
-    - env: PLATFORM=iOS DESTINATION='platform=iOS Simulator,name=iPhone 6'
+    - env: PLATFORM=iOS DESTINATION='platform=iOS Simulator,name=iPhone 8'
     - env: PLATFORM=tvOS DESTINATION='platform=tvOS Simulator,name=Apple TV'
+    - env: PLATFORM=watchOS
 script:
-  - xcodebuild test -project RxSpriteKit.xcodeproj -scheme RxSpriteKitTests-$PLATFORM -destination "${DESTINATION}"
-  - xcodebuild -project RxSpriteKit.xcodeproj -scheme RxSpriteKitDemo-$PLATFORM -destination "${DESTINATION}"
+  - ./scripts/run_tests
