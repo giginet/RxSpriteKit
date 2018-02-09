@@ -15,6 +15,14 @@ React extensions for SpriteKit :space_invader:
 github "giginet/RxSpriteKit"
 ```
 
+## CocoaPods
+
+```ruby
+use_framework!
+
+pod "RxSpriteKit"
+```
+
 # Usage
 
 See `RxSpriteKitDemo` for detail.
@@ -34,7 +42,7 @@ class GameScene: SKScene {
         super.sceneDidLoad()
 
         guard let label = childNode(withName: "//helloLabel") as? SKLabelNode else {
-            fatalError("Label is not defined.")
+            fatalError("Label is not defined")
         }
         self.label = label
         rx.update
@@ -43,15 +51,15 @@ class GameScene: SKScene {
             .disposed(by: disposeBag)
         frameRelay
             .map { CGFloat($0) * 0.01 }
-            .bind(to: label.rx.zRotation.asObserver())
+            .bind(to: label.rx.zRotation)
             .disposed(by: disposeBag)
         frameRelay
             .map { CGPoint(x: 0, y: $0) }
-            .bind(to: label.rx.position.asObserver())
+            .bind(to: label.rx.position)
             .disposed(by: disposeBag)
         frameRelay
             .map { String(describing: $0) }
-            .bind(to: label.rx.text.asObserver())
+            .bind(to: label.rx.text)
             .disposed(by: disposeBag)
     }
 }

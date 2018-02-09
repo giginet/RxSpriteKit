@@ -7,6 +7,7 @@ cache:
 install:
   - carthage update --platform $PLATFORM
 before_script: 
+  - pod lib lint
   - swiftlint
 matrix:
   include:
