@@ -5,7 +5,7 @@ cache:
   directories:
     - Carthage/
 install:
-  - gem update cocoapods -v 1.4.0
+  - gem install cocoapods -v 1.4.0
   - carthage update --platform $PLATFORM
 before_script: 
   - pod lib lint
