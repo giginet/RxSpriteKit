@@ -3,6 +3,7 @@
 PROJECT=RxSpriteKit.xcodeproj
 
 if [[ $PLATFORM == watchOS ]]; then
+  carthage update --platform watchOS
   xcodebuild -project $PROJECT -scheme RxSpriteKit-$PLATFORM -destination 'platform=watchOS Simulator,name=Apple Watch Series 3 - 42mm'
   xcodebuild -project $PROJECT -scheme RxSpriteKitDemo-$PLATFORM -destination 'platform=iOS Simulator,name=iPhone 8' 
 else

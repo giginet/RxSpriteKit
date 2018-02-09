@@ -29,6 +29,7 @@
 		074A7175200A46D30087739C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7169200A44C30087739C /* RxCocoa.framework */; };
 		074A7176200A46D30087739C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A716A200A44C30087739C /* RxSwift.framework */; };
 		074A7177200A472E0087739C /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA4E20064098001A1FE1 /* RxSpriteKit.framework */; };
+		0757350F202DDB29000DA911 /* RxSpriteKitDemo-watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 07D3E1692029D84200A86B4A /* RxSpriteKitDemo-watchOS.app */; };
 		077183BC200E460D000C2E8E /* SKScene+LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077183BB200E460D000C2E8E /* SKScene+LifeCycleTests.swift */; };
 		077183BD200E460D000C2E8E /* SKScene+LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077183BB200E460D000C2E8E /* SKScene+LifeCycleTests.swift */; };
 		077183BF200E48A7000C2E8E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7160200A433E0087739C /* RxCocoa.framework */; };
@@ -187,6 +188,13 @@
 			remoteGlobalIDString = 0779CA4D20064098001A1FE1;
 			remoteInfo = "RxSpriteKit-macOS";
 		};
+		07573510202DDB2D000DA911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0779C9E620063CA9001A1FE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D3E1682029D84200A86B4A;
+			remoteInfo = "RxSpriteKitDemo-watchOS";
+		};
 		0779CA65200640B8001A1FE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0779C9E620063CA9001A1FE1 /* Project object */;
@@ -248,6 +256,17 @@
 				07D3E1762029D84300A86B4A /* RxSpriteKitDemo Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D3E18F2029D84300A86B4A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0757350F202DDB29000DA911 /* RxSpriteKitDemo-watchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		07D3E1AC2029DA0E00A86B4A /* Embed Frameworks */ = {
@@ -777,10 +796,12 @@
 				070D1884200A3F68001CFC8D /* Frameworks */,
 				070D1885200A3F68001CFC8D /* Resources */,
 				074A7172200A46160087739C /* Carthage */,
+				07D3E18F2029D84300A86B4A /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				07573511202DDB2D000DA911 /* PBXTargetDependency */,
 				074A7179200A47540087739C /* PBXTargetDependency */,
 			);
 			name = "RxSpriteKitDemo-iOS";
@@ -1588,6 +1609,11 @@
 			target = 0779CA4D20064098001A1FE1 /* RxSpriteKit-macOS */;
 			targetProxy = 074A717A200A47570087739C /* PBXContainerItemProxy */;
 		};
+		07573511202DDB2D000DA911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D3E1682029D84200A86B4A /* RxSpriteKitDemo-watchOS */;
+			targetProxy = 07573510202DDB2D000DA911 /* PBXContainerItemProxy */;
+		};
 		0779CA66200640B8001A1FE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0779CA3B2006407E001A1FE1 /* RxSpriteKit-iOS */;
@@ -2215,7 +2241,7 @@
 				IBSC_MODULE = RxSpriteKitDemo_Extension;
 				INFOPLIST_FILE = Demo/watchOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-watchOS.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-iOS.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -2234,7 +2260,7 @@
 				IBSC_MODULE = RxSpriteKitDemo_Extension;
 				INFOPLIST_FILE = Demo/watchOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-watchOS.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-iOS.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -2256,7 +2282,7 @@
 				);
 				INFOPLIST_FILE = Demo/watchOS/Extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-watchOS.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-iOS.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -2278,7 +2304,7 @@
 				);
 				INFOPLIST_FILE = Demo/watchOS/Extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-watchOS.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-iOS.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;

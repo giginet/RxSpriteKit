@@ -5,7 +5,7 @@ cache:
   directories:
     - Carthage/
 install:
-  - carthage update
+  - carthage update --platform $PLATFORM
 before_script: 
   - swiftlint
 matrix:
