@@ -30,15 +30,15 @@ class GameScene: SKScene {
             .disposed(by: disposeBag)
         frameRelay
             .map { CGFloat($0) * 0.01 }
-            .bind(to: label.rx.zRotation.asObserver())
+            .bind(to: label.rx.zRotation)
             .disposed(by: disposeBag)
         frameRelay
             .map { CGPoint(x: 0, y: $0) }
-            .bind(to: label.rx.position.asObserver())
+            .bind(to: label.rx.position)
             .disposed(by: disposeBag)
         frameRelay
             .map { String(describing: $0) }
-            .bind(to: label.rx.text.asObserver())
+            .bind(to: label.rx.text)
             .disposed(by: disposeBag)
     }
 }
