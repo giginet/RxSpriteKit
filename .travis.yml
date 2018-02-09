@@ -5,14 +5,14 @@ cache:
   directories:
     - Carthage/
 install:
-  - carthage update --platform $PLATFORM
+  - carthage update --platform $CARTHAGE
 before_script: 
   - swiftlint
 matrix:
   include:
-    - env: PLATFORM=macOS DESTINATION='platform=macOS,arch=x86_64'
-    - env: PLATFORM=iOS DESTINATION='platform=iOS Simulator,name=iPhone 8'
-    - env: PLATFORM=tvOS DESTINATION='platform=tvOS Simulator,name=Apple TV'
-    - env: PLATFORM=watchOS
+    - env: PLATFORM=macOS DESTINATION='platform=macOS,arch=x86_64' CARTHAGE=$PLATFORM
+    - env: PLATFORM=iOS DESTINATION='platform=iOS Simulator,name=iPhone 8' CARTHAGE=iOS,watchOS
+    - env: PLATFORM=tvOS DESTINATION='platform=tvOS Simulator,name=Apple TV' CARTHAGE=$PLATFORM
+    - env: PLATFORM=watchOS CARTHAGE=iOS,watchOS
 script:
   - ./scripts/run_tests
