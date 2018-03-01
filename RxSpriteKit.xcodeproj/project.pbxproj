@@ -177,6 +177,8 @@
 		07F09ABE201F441800847DBB /* SKEmitterNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8F201F441800847DBB /* SKEmitterNode+Binder.swift */; };
 		07F09ABF201F441800847DBB /* SKEmitterNode+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F09A8F201F441800847DBB /* SKEmitterNode+Binder.swift */; };
 		07FFC456201F68CE00333DC0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 070D18BE200A40B5001CFC8D /* GameScene.sks */; };
+		1F84F87620481C8700A20AF4 /* RxSpriteKit.framework in copy framework */ = {isa = PBXBuildFile; fileRef = 0779CA3C2006407E001A1FE1 /* RxSpriteKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1F84F87A20481CDD00A20AF4 /* RxSpriteKit.framework in copy framework */ = {isa = PBXBuildFile; fileRef = 07DA8614202894C900DF391F /* RxSpriteKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -284,6 +286,28 @@
 				07D3E1AA2029DA0E00A86B4A /* RxSpriteKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F84F87520481C7D00A20AF4 /* copy framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1F84F87620481C8700A20AF4 /* RxSpriteKit.framework in copy framework */,
+			);
+			name = "copy framework";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F84F87720481CBC00A20AF4 /* copy framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1F84F87A20481CDD00A20AF4 /* RxSpriteKit.framework in copy framework */,
+			);
+			name = "copy framework";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -831,6 +855,7 @@
 				070D1884200A3F68001CFC8D /* Frameworks */,
 				070D1885200A3F68001CFC8D /* Resources */,
 				074A7172200A46160087739C /* Carthage */,
+				1F84F87520481C7D00A20AF4 /* copy framework */,
 			);
 			buildRules = (
 			);
@@ -964,6 +989,7 @@
 				077B6BF720289AF300BAD644 /* Frameworks */,
 				077B6BF820289AF300BAD644 /* Resources */,
 				077B6C2020289B9900BAD644 /* Carthage */,
+				1F84F87720481CBC00A20AF4 /* copy framework */,
 			);
 			buildRules = (
 			);
