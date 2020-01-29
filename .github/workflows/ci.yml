@@ -15,7 +15,7 @@ jobs:
     - uses: actions/cache@v1
       with:
         path: Carthage
-        key: ${{ env.platform }}-carthage-${{ hashFiles('**/Cartfile.resolved') }}
+        key: ${{ matrix.platform }}-carthage-${{ hashFiles('**/Cartfile.resolved') }}
         restore-keys: |
           ${{ runner.os }}-carthage-
     - name: Install Dependencies
