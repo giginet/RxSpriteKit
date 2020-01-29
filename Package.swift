@@ -12,14 +12,14 @@ let package = Package(
             targets: ["RxSpriteKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "5.0"),
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMinor(from: "5.0.0")),
     ],
     targets: [
         .target(
             name: "RxSpriteKit",
-            dependencies: ["RxSwift"]),
+            dependencies: ["RxSwift", "RxCocoa", "RxRelay"]),
         .testTarget(
             name: "RxSpriteKitTests",
-            dependencies: ["RxSpriteKit"]),
+            dependencies: ["RxSpriteKit", "RxTest", "RxBlocking"]),
     ]
 )
