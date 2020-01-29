@@ -18,7 +18,7 @@ class SKScene_LifeCycleTests: XCTestCase {
             self.scene.didChangeSize(CGSize.zero)
         }
         scheduler.start()
-        XCTAssertEqual(observer.events, [next(100, CGSize.zero)])
+        XCTAssertEqual(observer.events, [Recorded.next(100, CGSize.zero)])
     }
 
     func testUpdate() {
@@ -28,7 +28,7 @@ class SKScene_LifeCycleTests: XCTestCase {
             self.scene.update(0.1)
         }
         scheduler.start()
-        XCTAssertEqual(observer.events, [next(100, 0.1)])
+        XCTAssertEqual(observer.events, [Recorded.next(100, 0.1)])
     }
 
     func testSceneDidLoad() {
