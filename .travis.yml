@@ -1,11 +1,11 @@
 os: osx
-osx_image: xcode9.2
+osx_image: xcode11
 language: objective-c
 cache:
   directories:
     - Carthage/
 install:
-  - gem install cocoapods -v 1.4.0
+  - gem install cocoapods
   - pod repo update
   - carthage update --platform $PLATFORM
 before_script: 
@@ -14,7 +14,7 @@ before_script:
 matrix:
   include:
     - env: PLATFORM=macOS DESTINATION='platform=macOS,arch=x86_64'
-    - env: PLATFORM=iOS DESTINATION='platform=iOS Simulator,name=iPhone 8'
+    - env: PLATFORM=iOS DESTINATION='platform=iOS Simulator,name=iPhone 11'
     - env: PLATFORM=tvOS DESTINATION='platform=tvOS Simulator,name=Apple TV'
     - env: PLATFORM=watchOS
 script:
