@@ -17,7 +17,7 @@ jobs:
         path: Carthage
         key: ${{ matrix.platform }}-carthage-${{ hashFiles('**/Cartfile.resolved') }}
         restore-keys: |
-          ${{ runner.os }}-carthage-
+          ${{ matrix.platform }}-carthage-
     - name: Install Dependencies
       run: |
         carthage update --platform $PLATFORM
