@@ -23,3 +23,16 @@ jobs:
         carthage update --platform $PLATFORM
     - name: Run Tests and Build Demos
       run: ./scripts/run_tests
+  lint:
+    runs-on: macos
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Dependencies
+      run: |
+        gem install cocoapods
+        pod repo update
+        brew install swiftlint
+    - name: SwiftLint
+      run: swiftlint --strict
+    - name: CocoaPods
+      run: pod lib lint
