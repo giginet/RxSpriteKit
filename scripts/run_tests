@@ -6,4 +6,5 @@ if [[ $PLATFORM == watchOS ]]; then
   xcodebuild -project $PROJECT -scheme RxSpriteKit-$PLATFORM -destination 'platform=watchOS Simulator,name=Apple Watch Series 3 - 42mm'
 else
   xcodebuild test -project $PROJECT -scheme RxSpriteKit-$PLATFORM -destination "${DESTINATION}"
+  xcodebuild -project $PROJECT -scheme RxSpriteKitDemo-$PLATFORM -destination "${DESTINATION}"
 fi
