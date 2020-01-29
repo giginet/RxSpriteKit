@@ -20,13 +20,6 @@ jobs:
           ${{ runner.os }}-carthage-
     - name: Install Dependencies
       run: |
-        gem install cocoapods
-        pod repo update
         carthage update --platform $PLATFORM
-        brew install swiftlint
-    - name: SwiftLint
-      run: swiftlint --strict
-    - name: CocoaPods
-      run: pod lib lint
     - name: Run Tests and Build Demos
       run: ./scripts/run_tests
