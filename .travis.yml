@@ -10,7 +10,7 @@ install:
   - carthage update --platform $PLATFORM
 before_script: 
   - pod lib lint
-  - swiftlint
+  - swiftlint --strict
 matrix:
   include:
     - env: PLATFORM=macOS DESTINATION='platform=macOS,arch=x86_64'
