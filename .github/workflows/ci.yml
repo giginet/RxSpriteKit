@@ -1,0 +1,25 @@
+name: RxSpriteKit
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: macos
+    strategy:
+      matrix:
+        platform: [iOS, macOS, watchOS, tvOS]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Dependencies
+      run: |
+        gem install cocoapods
+        pod repo update
+        carthage update --platform $PLATFORM
+    - name: SwiftLint
+      run: swiftlint --strict
+    - name: pod lib lint
+      run: pod lib lint
+    - name: Run Tests & Demos
+      run: ./scripts/run_tests
+      env: 
+        PLATFORM: ${{ matrix.platform }}
