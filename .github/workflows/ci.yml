@@ -10,7 +10,6 @@ jobs:
         platform: [iOS, macOS, watchOS, tvOS]
     env: 
       PLATFORM: ${{ matrix.platform }}
-    env:
     steps:
     - uses: actions/checkout@v2
     - uses: actions/cache@v1
