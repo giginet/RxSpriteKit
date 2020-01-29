@@ -1,3 +1,5 @@
+#if os(iOS) || os(macOS) || os(watchOS)
+
 import Foundation
 import SpriteKit
 import RxSpriteKit
@@ -81,3 +83,5 @@ class SKScene_LifeCycleTests: XCTestCase {
         XCTAssertEqual(observer.events.count, 1)
     }
 }
+
+#endif
