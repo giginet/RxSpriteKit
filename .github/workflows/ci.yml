@@ -10,16 +10,24 @@ jobs:
         platform: [iOS, macOS, watchOS, tvOS]
     env: 
       PLATFORM: ${{ matrix.platform }}
+    env:
     steps:
     - uses: actions/checkout@v2
+    - uses: actions/cache@v1
+      with:
+        path: Carthage
+        key: ${{ runner.os }}-carthage-${{ hashFiles('**/Cartfile.resolved') }}
+        restore-keys: |
+          ${{ runner.os }}-carthage-
     - name: Install Dependencies
       run: |
         gem install cocoapods
         pod repo update
         carthage update --platform $PLATFORM
+        brew install swiftlint
     - name: SwiftLint
       run: swiftlint --strict
-    - name: pod lib lint
+    - name: CocoaPods
       run: pod lib lint
-    - name: Run Tests & Demos
+    - name: Run Tests and Build Demos
       run: ./scripts/run_tests
