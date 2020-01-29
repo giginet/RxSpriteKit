@@ -20,7 +20,7 @@ jobs:
           ${{ matrix.platform }}-carthage-
     - name: Install Dependencies
       run: |
-        carthage update --platform $PLATFORM
+        carthage update --platform $PLATFORM --cache-builds
     - name: Run Tests and Build Demos
       run: ./scripts/run_tests
   lint:
