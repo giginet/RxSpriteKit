@@ -7,7 +7,7 @@ jobs:
     runs-on: macos
     strategy:
       matrix:
-        platform: [iOS, macOS, watchOS, tvOS]
+        platform: [iOS, macOS, tvOS]
     env: 
       PLATFORM: ${{ matrix.platform }}
     steps:
