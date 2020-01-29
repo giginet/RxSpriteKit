@@ -115,6 +115,24 @@
 		072C66E223E1DA8300440503 /* SKScene+LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C66DD23E1DA8300440503 /* SKScene+LifeCycleTests.swift */; };
 		072C66E323E1DA8300440503 /* SKScene+LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C66DD23E1DA8300440503 /* SKScene+LifeCycleTests.swift */; };
 		072C66E423E1DA8300440503 /* SKScene+LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C66DD23E1DA8300440503 /* SKScene+LifeCycleTests.swift */; };
+		072C675823E1E56600440503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C672C23E1E55A00440503 /* ViewController.swift */; };
+		072C675923E1E56900440503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072C672D23E1E55A00440503 /* Assets.xcassets */; };
+		072C675A23E1E57500440503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C673123E1E55A00440503 /* AppDelegate.swift */; };
+		072C675B23E1E5EF00440503 /* RxSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA4E20064098001A1FE1 /* RxSpriteKit.framework */; };
+		072C675C23E1E5EF00440503 /* RxSpriteKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0779CA4E20064098001A1FE1 /* RxSpriteKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		072C676023E1E61400440503 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 072C675623E1E55A00440503 /* GameScene.sks */; };
+		072C676123E1E61400440503 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C675723E1E55A00440503 /* GameScene.swift */; };
+		072C676223E1E61400440503 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 072C675623E1E55A00440503 /* GameScene.sks */; };
+		072C676323E1E61400440503 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C675723E1E55A00440503 /* GameScene.swift */; };
+		072C676423E1E61500440503 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 072C675623E1E55A00440503 /* GameScene.sks */; };
+		072C676523E1E61500440503 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C675723E1E55A00440503 /* GameScene.swift */; };
+		072C676623E1E63E00440503 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7169200A44C30087739C /* RxCocoa.framework */; };
+		072C676723E1E63E00440503 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7169200A44C30087739C /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		072C676823E1E63E00440503 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A716A200A44C30087739C /* RxSwift.framework */; };
+		072C676923E1E63E00440503 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 074A716A200A44C30087739C /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		072C676B23E1E65300440503 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072C676A23E1E65300440503 /* RxRelay.framework */; };
+		072C676C23E1E65300440503 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 072C676A23E1E65300440503 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		072C676D23E1E66700440503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072C672E23E1E55A00440503 /* Main.storyboard */; };
 		074A7162200A433E0087739C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7160200A433E0087739C /* RxCocoa.framework */; };
 		074A7163200A433E0087739C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7161200A433E0087739C /* RxSwift.framework */; };
 		074A716B200A44C30087739C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A7169200A44C30087739C /* RxCocoa.framework */; };
@@ -138,6 +156,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		072C675D23E1E5EF00440503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0779C9E620063CA9001A1FE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0779CA4D20064098001A1FE1;
+			remoteInfo = "RxSpriteKit-macOS";
+		};
 		0779CA65200640B8001A1FE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0779C9E620063CA9001A1FE1 /* Project object */;
@@ -160,6 +185,23 @@
 			remoteInfo = "RxSpriteKit-tvOS";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		072C675F23E1E5EF00440503 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				072C676C23E1E65300440503 /* RxRelay.framework in Embed Frameworks */,
+				072C676723E1E63E00440503 /* RxCocoa.framework in Embed Frameworks */,
+				072C675C23E1E5EF00440503 /* RxSpriteKit.framework in Embed Frameworks */,
+				072C676923E1E63E00440503 /* RxSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		072C664A23E1DA7500440503 /* NSResponder+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSResponder+Rx.swift"; sourceTree = "<group>"; };
@@ -193,6 +235,42 @@
 		072C66DB23E1DA8300440503 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		072C66DD23E1DA8300440503 /* SKScene+LifeCycleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKScene+LifeCycleTests.swift"; sourceTree = "<group>"; };
 		072C66DE23E1DA8300440503 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072C66EC23E1E50300440503 /* RxSpriteKitDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSpriteKitDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072C670423E1E52500440503 /* RxSpriteKitDemo-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSpriteKitDemo-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072C671823E1E53500440503 /* RxSpriteKitDemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSpriteKitDemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072C672C23E1E55A00440503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		072C672D23E1E55A00440503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		072C672F23E1E55A00440503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		072C673023E1E55A00440503 /* RxSpriteKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RxSpriteKitDemo.entitlements; sourceTree = "<group>"; };
+		072C673123E1E55A00440503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		072C673223E1E55A00440503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072C673523E1E55A00440503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		072C673623E1E55A00440503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		072C673823E1E55A00440503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		072C673A23E1E55A00440503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		072C673B23E1E55A00440503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		072C673C23E1E55A00440503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072C673E23E1E55A00440503 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		072C673F23E1E55A00440503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		072C674023E1E55A00440503 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		072C674123E1E55A00440503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072C674223E1E55A00440503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		072C674423E1E55A00440503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		072C674523E1E55A00440503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072C674723E1E55A00440503 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		072C674823E1E55A00440503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		072C674A23E1E55A00440503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		072C674C23E1E55A00440503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		072C674D23E1E55A00440503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		072C674E23E1E55A00440503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072C675023E1E55A00440503 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		072C675123E1E55A00440503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		072C675323E1E55A00440503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		072C675423E1E55A00440503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		072C675523E1E55A00440503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072C675623E1E55A00440503 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		072C675723E1E55A00440503 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		072C676A23E1E65300440503 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/Mac/RxRelay.framework; sourceTree = "<group>"; };
 		074A7160200A433E0087739C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		074A7161200A433E0087739C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		074A7169200A44C30087739C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
@@ -214,6 +292,31 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		072C66E923E1E50300440503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072C670123E1E52500440503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C676B23E1E65300440503 /* RxRelay.framework in Frameworks */,
+				072C676623E1E63E00440503 /* RxCocoa.framework in Frameworks */,
+				072C675B23E1E5EF00440503 /* RxSpriteKit.framework in Frameworks */,
+				072C676823E1E63E00440503 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072C671523E1E53500440503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0779CA382006407E001A1FE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,9 +498,97 @@
 			path = RxSpriteKitTests;
 			sourceTree = "<group>";
 		};
+		072C672A23E1E55A00440503 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				072C672B23E1E55A00440503 /* macOS */,
+				072C673323E1E55A00440503 /* watchOS */,
+				072C674623E1E55A00440503 /* iOS */,
+				072C674F23E1E55A00440503 /* tvOS */,
+				072C675623E1E55A00440503 /* GameScene.sks */,
+				072C675723E1E55A00440503 /* GameScene.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		072C672B23E1E55A00440503 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				072C672C23E1E55A00440503 /* ViewController.swift */,
+				072C672D23E1E55A00440503 /* Assets.xcassets */,
+				072C672E23E1E55A00440503 /* Main.storyboard */,
+				072C673023E1E55A00440503 /* RxSpriteKitDemo.entitlements */,
+				072C673123E1E55A00440503 /* AppDelegate.swift */,
+				072C673223E1E55A00440503 /* Info.plist */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		072C673323E1E55A00440503 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				072C673423E1E55A00440503 /* Host */,
+				072C673D23E1E55A00440503 /* Extension */,
+				072C674223E1E55A00440503 /* Assets.xcassets */,
+				072C674323E1E55A00440503 /* Interface.storyboard */,
+				072C674523E1E55A00440503 /* Info.plist */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		072C673423E1E55A00440503 /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				072C673523E1E55A00440503 /* ViewController.swift */,
+				072C673623E1E55A00440503 /* Assets.xcassets */,
+				072C673723E1E55A00440503 /* LaunchScreen.storyboard */,
+				072C673923E1E55A00440503 /* Main.storyboard */,
+				072C673B23E1E55A00440503 /* AppDelegate.swift */,
+				072C673C23E1E55A00440503 /* Info.plist */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+		072C673D23E1E55A00440503 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				072C673E23E1E55A00440503 /* InterfaceController.swift */,
+				072C673F23E1E55A00440503 /* Assets.xcassets */,
+				072C674023E1E55A00440503 /* ExtensionDelegate.swift */,
+				072C674123E1E55A00440503 /* Info.plist */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		072C674623E1E55A00440503 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				072C674723E1E55A00440503 /* GameViewController.swift */,
+				072C674823E1E55A00440503 /* Assets.xcassets */,
+				072C674923E1E55A00440503 /* LaunchScreen.storyboard */,
+				072C674B23E1E55A00440503 /* Main.storyboard */,
+				072C674D23E1E55A00440503 /* AppDelegate.swift */,
+				072C674E23E1E55A00440503 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		072C674F23E1E55A00440503 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				072C675023E1E55A00440503 /* GameViewController.swift */,
+				072C675123E1E55A00440503 /* Assets.xcassets */,
+				072C675223E1E55A00440503 /* Main.storyboard */,
+				072C675423E1E55A00440503 /* AppDelegate.swift */,
+				072C675523E1E55A00440503 /* Info.plist */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
 		074A715F200A433D0087739C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				072C676A23E1E65300440503 /* RxRelay.framework */,
 				077B6BC92028971F00BAD644 /* iOS */,
 				077B6BC8202896F800BAD644 /* macOS */,
 				077B6BC7202896EF00BAD644 /* tvOS */,
@@ -411,6 +602,7 @@
 			children = (
 				072C664623E1DA7500440503 /* Sources */,
 				072C66DA23E1DA8300440503 /* Tests */,
+				072C672A23E1E55A00440503 /* Demo */,
 				0779C9EF20063CA9001A1FE1 /* Products */,
 				074A715F200A433D0087739C /* Frameworks */,
 			);
@@ -426,6 +618,9 @@
 				07DA8614202894C900DF391F /* RxSpriteKit.framework */,
 				077B6BCE2028983E00BAD644 /* RxSpriteKitTests-tvOS.xctest */,
 				077B6C282028A10500BAD644 /* RxSpriteKit.framework */,
+				072C66EC23E1E50300440503 /* RxSpriteKitDemo-iOS.app */,
+				072C670423E1E52500440503 /* RxSpriteKitDemo-macOS.app */,
+				072C671823E1E53500440503 /* RxSpriteKitDemo-tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -503,6 +698,59 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		072C66EB23E1E50300440503 /* RxSpriteKitDemo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072C66FD23E1E50700440503 /* Build configuration list for PBXNativeTarget "RxSpriteKitDemo-iOS" */;
+			buildPhases = (
+				072C66E823E1E50300440503 /* Sources */,
+				072C66E923E1E50300440503 /* Frameworks */,
+				072C66EA23E1E50300440503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RxSpriteKitDemo-iOS";
+			productName = "RxSpriteKitDemo-iOS";
+			productReference = 072C66EC23E1E50300440503 /* RxSpriteKitDemo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		072C670323E1E52500440503 /* RxSpriteKitDemo-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072C671123E1E52600440503 /* Build configuration list for PBXNativeTarget "RxSpriteKitDemo-macOS" */;
+			buildPhases = (
+				072C670023E1E52500440503 /* Sources */,
+				072C670123E1E52500440503 /* Frameworks */,
+				072C670223E1E52500440503 /* Resources */,
+				072C675F23E1E5EF00440503 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072C675E23E1E5EF00440503 /* PBXTargetDependency */,
+			);
+			name = "RxSpriteKitDemo-macOS";
+			productName = "RxSpriteKitDemo-macOS";
+			productReference = 072C670423E1E52500440503 /* RxSpriteKitDemo-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		072C671723E1E53500440503 /* RxSpriteKitDemo-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072C672723E1E53600440503 /* Build configuration list for PBXNativeTarget "RxSpriteKitDemo-tvOS" */;
+			buildPhases = (
+				072C671423E1E53500440503 /* Sources */,
+				072C671523E1E53500440503 /* Frameworks */,
+				072C671623E1E53500440503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RxSpriteKitDemo-tvOS";
+			productName = "RxSpriteKitDemo-tvOS";
+			productReference = 072C671823E1E53500440503 /* RxSpriteKitDemo-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0779CA3B2006407E001A1FE1 /* RxSpriteKit-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0779CA452006407E001A1FE1 /* Build configuration list for PBXNativeTarget "RxSpriteKit-iOS" */;
@@ -642,10 +890,22 @@
 		0779C9E620063CA9001A1FE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = giginet;
 				TargetAttributes = {
+					072C66EB23E1E50300440503 = {
+						CreatedOnToolsVersion = 11.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					072C670323E1E52500440503 = {
+						CreatedOnToolsVersion = 11.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					072C671723E1E53500440503 = {
+						CreatedOnToolsVersion = 11.3.1;
+						ProvisioningStyle = Automatic;
+					};
 					0779CA3B2006407E001A1FE1 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1130;
@@ -703,11 +963,40 @@
 				0779CA5E200640B8001A1FE1 /* RxSpriteKitTests-iOS */,
 				0779CA6D2006542D001A1FE1 /* RxSpriteKitTests-macOS */,
 				077B6BCD2028983E00BAD644 /* RxSpriteKitTests-tvOS */,
+				072C66EB23E1E50300440503 /* RxSpriteKitDemo-iOS */,
+				072C670323E1E52500440503 /* RxSpriteKitDemo-macOS */,
+				072C671723E1E53500440503 /* RxSpriteKitDemo-tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		072C66EA23E1E50300440503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C676023E1E61400440503 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072C670223E1E52500440503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C676D23E1E66700440503 /* Main.storyboard in Resources */,
+				072C676223E1E61400440503 /* GameScene.sks in Resources */,
+				072C675923E1E56900440503 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072C671623E1E53500440503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C676423E1E61500440503 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0779CA3A2006407E001A1FE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -910,6 +1199,32 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		072C66E823E1E50300440503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C676123E1E61400440503 /* GameScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072C670023E1E52500440503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C676323E1E61400440503 /* GameScene.swift in Sources */,
+				072C675A23E1E57500440503 /* AppDelegate.swift in Sources */,
+				072C675823E1E56600440503 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072C671423E1E53500440503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C676523E1E61500440503 /* GameScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0779CA372006407E001A1FE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1067,6 +1382,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		072C675E23E1E5EF00440503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0779CA4D20064098001A1FE1 /* RxSpriteKit-macOS */;
+			targetProxy = 072C675D23E1E5EF00440503 /* PBXContainerItemProxy */;
+		};
 		0779CA66200640B8001A1FE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0779CA3B2006407E001A1FE1 /* RxSpriteKit-iOS */;
@@ -1084,7 +1404,191 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		072C672E23E1E55A00440503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072C672F23E1E55A00440503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		072C673723E1E55A00440503 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072C673823E1E55A00440503 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		072C673923E1E55A00440503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072C673A23E1E55A00440503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		072C674323E1E55A00440503 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072C674423E1E55A00440503 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		072C674923E1E55A00440503 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072C674A23E1E55A00440503 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		072C674B23E1E55A00440503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072C674C23E1E55A00440503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		072C675223E1E55A00440503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072C675323E1E55A00440503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		072C66FE23E1E50700440503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/RxSpriteKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		072C66FF23E1E50700440503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/RxSpriteKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		072C671223E1E52600440503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = Demo/macOS/RxSpriteKitDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2AWR7Z4WYE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Demo/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		072C671323E1E52600440503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = Demo/macOS/RxSpriteKitDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2AWR7Z4WYE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Demo/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		072C672823E1E53600440503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/RxSpriteKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		072C672923E1E53600440503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/RxSpriteKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.giginet.RxSpriteKitDemo-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
 		0779CA0420063CA9001A1FE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1589,6 +2093,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		072C66FD23E1E50700440503 /* Build configuration list for PBXNativeTarget "RxSpriteKitDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072C66FE23E1E50700440503 /* Debug */,
+				072C66FF23E1E50700440503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072C671123E1E52600440503 /* Build configuration list for PBXNativeTarget "RxSpriteKitDemo-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072C671223E1E52600440503 /* Debug */,
+				072C671323E1E52600440503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072C672723E1E53600440503 /* Build configuration list for PBXNativeTarget "RxSpriteKitDemo-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072C672823E1E53600440503 /* Debug */,
+				072C672923E1E53600440503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0779C9E920063CA9001A1FE1 /* Build configuration list for PBXProject "RxSpriteKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
