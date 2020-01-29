@@ -65,7 +65,6 @@
 		072C66A623E1DA7500440503 /* SKView+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C665C23E1DA7500440503 /* SKView+Binder.swift */; };
 		072C66A723E1DA7500440503 /* SKView+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C665C23E1DA7500440503 /* SKView+Binder.swift */; };
 		072C66A823E1DA7500440503 /* SKView+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C665C23E1DA7500440503 /* SKView+Binder.swift */; };
-		072C66A923E1DA7500440503 /* SKView+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C665C23E1DA7500440503 /* SKView+Binder.swift */; };
 		072C66AA23E1DA7500440503 /* SKPhysicsWorld+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C665D23E1DA7500440503 /* SKPhysicsWorld+Binder.swift */; };
 		072C66AB23E1DA7500440503 /* SKPhysicsWorld+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C665D23E1DA7500440503 /* SKPhysicsWorld+Binder.swift */; };
 		072C66AC23E1DA7500440503 /* SKPhysicsWorld+Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C665D23E1DA7500440503 /* SKPhysicsWorld+Binder.swift */; };
@@ -669,14 +668,17 @@
 					};
 					077B6BCD2028983E00BAD644 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Automatic;
 					};
 					077B6C272028A10500BAD644 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Manual;
 					};
 					07DA8613202894C900DF391F = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -1013,7 +1015,6 @@
 				072C669523E1DA7500440503 /* SKPhysicsJointLimit+Binder.swift in Sources */,
 				072C66D123E1DA7500440503 /* SKEmitterNode+Binder.swift in Sources */,
 				072C66D523E1DA7500440503 /* SKScene+LifeCycle.swift in Sources */,
-				072C66A923E1DA7500440503 /* SKView+Binder.swift in Sources */,
 				072C66B523E1DA7500440503 /* SKSpriteNode+Binder.swift in Sources */,
 				072C66A523E1DA7500440503 /* SKCropNode+Binder.swift in Sources */,
 				072C668523E1DA7500440503 /* SKLightNode+Binder.swift in Sources */,
@@ -1432,7 +1433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.2;
 			};
@@ -1453,7 +1454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.RxSpriteKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.2;
 			};
@@ -1483,7 +1484,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1515,7 +1516,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1546,7 +1547,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.2;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1577,7 +1578,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.2;
 				VERSIONING_SYSTEM = "apple-generic";

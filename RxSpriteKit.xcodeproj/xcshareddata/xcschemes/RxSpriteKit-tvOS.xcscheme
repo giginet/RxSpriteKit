@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "077B6BCD2028983E00BAD644"
+               BuildableName = "RxSpriteKitTests-tvOS.xctest"
+               BlueprintName = "RxSpriteKitTests-tvOS"
+               ReferencedContainer = "container:RxSpriteKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
