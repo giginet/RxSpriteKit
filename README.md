@@ -1,6 +1,6 @@
 # RxSpriteKit
 
-[![Build Status](https://travis-ci.org/giginet/RxSpriteKit.svg?branch=master)](https://travis-ci.org/giginet/RxSpriteKit)
+[![Build Status](https://github.com/giginet/RxSpriteKit/workflows/RxSpriteKit/badge.svg)](https://github.com/giginet/RxSpriteKit/actions?query=workflow%3ARxSpriteKit)
 [![Language](https://img.shields.io/badge/language-Swift%204.0.2-orange.svg)](https://swift.org)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/RxSpriteKit.svg)](http://cocoadocs.org/docsets/RxSpriteKit)
