@@ -1,0 +1,36 @@
+name: RxSpriteKit
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: macos
+    strategy:
+      matrix:
+        platform: [iOS, macOS, tvOS]
+    env: 
+      PLATFORM: ${{ matrix.platform }}
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/cache@v1
+      with:
+        path: Carthage
+        key: ${{ matrix.platform }}-carthage-${{ hashFiles('**/Cartfile.resolved') }}
+        restore-keys: |
+          ${{ matrix.platform }}-carthage-
+    - name: Install Dependencies
+      run: |
+        carthage update --platform $PLATFORM --cache-builds
+    - name: Run Tests and Build Demos
+      run: ./scripts/run_tests
+  lint:
+    runs-on: macos
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Dependencies
+      run: |
+        gem install cocoapods
+        pod repo update
+        brew install swiftlint
+    - name: SwiftLint
+      run: swiftlint --strict

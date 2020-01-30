@@ -1,3 +1,5 @@
+#if os(macOS)
+
 import Foundation
 import Cocoa
 import RxSwift
@@ -59,3 +61,5 @@ extension Reactive where Base: NSResponder {
         return ControlEvent(events: source)
     }
 }
+
+#endif

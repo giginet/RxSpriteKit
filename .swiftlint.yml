@@ -1,5 +1,5 @@
 included:
-  - RxSpriteKit
+  - Sources/RxSpriteKit
   - Tests/RxSpriteKit
   - Demo
 disabled_rules:

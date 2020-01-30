@@ -1,3 +1,5 @@
+#if os(iOS) || os(macOS) || os(tvOS)
+
 import Foundation
 import SpriteKit
 import RxSwift
@@ -78,3 +80,5 @@ extension Reactive where Base: SKView {
     }
 
 }
+
+#endif

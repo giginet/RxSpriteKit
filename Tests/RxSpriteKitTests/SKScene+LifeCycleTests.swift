@@ -1,3 +1,5 @@
+#if os(iOS) || os(macOS) || os(watchOS)
+
 import Foundation
 import SpriteKit
 import RxSpriteKit
@@ -18,7 +20,7 @@ class SKScene_LifeCycleTests: XCTestCase {
             self.scene.didChangeSize(CGSize.zero)
         }
         scheduler.start()
-        XCTAssertEqual(observer.events, [next(100, CGSize.zero)])
+        XCTAssertEqual(observer.events, [Recorded.next(100, CGSize.zero)])
     }
 
     func testUpdate() {
@@ -28,7 +30,7 @@ class SKScene_LifeCycleTests: XCTestCase {
             self.scene.update(0.1)
         }
         scheduler.start()
-        XCTAssertEqual(observer.events, [next(100, 0.1)])
+        XCTAssertEqual(observer.events, [Recorded.next(100, 0.1)])
     }
 
     func testSceneDidLoad() {
@@ -81,3 +83,5 @@ class SKScene_LifeCycleTests: XCTestCase {
         XCTAssertEqual(observer.events.count, 1)
     }
 }
+
+#endif
