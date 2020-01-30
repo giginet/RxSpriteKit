@@ -34,5 +34,3 @@ jobs:
         brew install swiftlint
     - name: SwiftLint
       run: swiftlint --strict
-    - name: CocoaPods
-      run: pod lib lint
